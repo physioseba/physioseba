@@ -67,52 +67,51 @@ color:#333;
 line-height:1.5;
 }
 
-/* SERVICES (SECOND SECTION) */
-.services{
-text-align:left;
-margin:15px 0;
-background:#f8f9ff;
-padding:10px;
-border-radius:10px;
-}
-
+/* SECTION TITLE */
 .section-title{
 font-size:16px;
 font-weight:bold;
 color:#0a7cff;
-margin-bottom:10px;
-text-align:center;
+margin:15px 0 10px;
+}
+
+/* SERVICE GRID */
+.services{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+margin:10px 0;
 }
 
 .service{
-background:#fff;
+background:#f8f9ff;
 padding:10px;
-border-radius:8px;
-margin-bottom:10px;
-border:1px solid #eee;
+border-radius:10px;
+text-align:left;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
 }
 
 .service h3{
 margin:0;
-font-size:14px;
+font-size:13px;
 color:#0a7cff;
 }
 
 .service p{
-margin:3px 0 0;
-font-size:12px;
+margin:5px 0 0;
+font-size:11px;
 color:#555;
 }
 
 /* BUTTON */
 .btn{
 display:block;
-margin-top:10px;
 padding:12px;
 color:white;
 text-decoration:none;
 border-radius:6px;
 font-size:16px;
+margin-top:10px;
 }
 
 .call-btn{background:#0a7cff;}
@@ -125,6 +124,15 @@ font-size:16px;
 <body>
 
 <div class="box">
+
+<!-- TOP BUTTON -->
+<a class="btn call-btn" href="tel:01914958611">
+📞 Call Now
+</a>
+
+<a class="btn whatsapp-btn" href="https://wa.me/8801914958611">
+💬 WhatsApp
+</a>
 
 <img class="logo" src="https://raw.githubusercontent.com/physioseba/physioseba/main/f7096a4e-f2b7-4f99-a1e3-bb4332cf7a14.jfif">
 
@@ -140,39 +148,39 @@ font-size:16px;
 ✔ 1000+ Happy Patients
 </div>
 
-<!-- 2ND SECTION: OUR SERVICES -->
+<div class="section-title">Our Physiotherapy Services</div>
+
+<!-- GRID BOX SERVICES -->
 <div class="services">
 
-<div class="section-title">Our Services</div>
-
 <div class="service">
-<h3>♿ Stroke Rehabilitation</h3>
-<p>Improve mobility, strength, and independence after stroke.</p>
+<h3>♿ Stroke Rehab</h3>
+<p>Improve mobility & independence</p>
 </div>
 
 <div class="service">
-<h3>🧠 Neurological Physiotherapy</h3>
-<p>Parkinson’s disease, facial palsy, spinal cord injuries and more.</p>
+<h3>🧠 Neuro Physio</h3>
+<p>Neurological condition care</p>
 </div>
 
 <div class="service">
 <h3>🦴 Pain Management</h3>
-<p>Back pain, neck pain, shoulder pain, knee pain treatment.</p>
+<p>Back & joint pain relief</p>
 </div>
 
 <div class="service">
-<h3>🩼 Post-Surgery Rehabilitation</h3>
-<p>Joint replacement, fracture fixation and surgical recovery.</p>
+<h3>🩼 Post-Surgery</h3>
+<p>Fast recovery support</p>
 </div>
 
 <div class="service">
-<h3>🚶 Walking & Balance Training</h3>
-<p>Improve gait, balance and reduce fall risk.</p>
+<h3>🚶 Balance Training</h3>
+<p>Walking stability improvement</p>
 </div>
 
 </div>
 
-<!-- BUTTONS -->
+<!-- BOTTOM BUTTON -->
 <a class="btn call-btn" href="tel:01914958611">
 📞 Call Now
 </a>
