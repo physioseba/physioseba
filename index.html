@@ -1,194 +1,185 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>PHYSIO SEBA</title>
-
+<meta charset="UTF-8">
+<title>Physio Seba</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 
 body{
-margin:0;
-padding:20px;
-font-family:Arial;
-background:#f3f3f3;
-display:flex;
-justify-content:center;
-align-items:flex-start;
-min-height:100vh;
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
 }
 
-.box{
-background:#fff;
-padding:20px;
-border-radius:12px;
-text-align:center;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-max-width:420px;
-width:100%;
+/* HERO SECTION */
+.hero{
+    background:#1e88e5;
+    color:white;
+    text-align:center;
+    padding:70px 15px;
 }
 
-.logo{
-width:80px;
-height:80px;
-object-fit:cover;
-border-radius:50%;
-border:2px solid #0a7cff;
-margin-bottom:10px;
+.hero h1{
+    margin:0;
+    font-size:40px;
 }
 
-.main-img{
-width:100%;
-border-radius:10px;
-margin:10px 0;
+.hero p{
+    margin-top:10px;
+    font-size:16px;
 }
 
-h1{
-color:#0a7cff;
-margin:5px 0;
-font-size:22px;
+/* BUTTON STYLE */
+.btn-group{
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
 }
 
-p{
-margin:5px 0;
-color:#555;
-font-size:14px;
-}
-
-/* TRUST */
-.trust{
-text-align:left;
-background:#f8f9ff;
-padding:10px;
-border-radius:8px;
-margin:10px 0;
-font-size:13px;
-color:#333;
-line-height:1.5;
-}
-
-/* SECTION TITLE */
-.section-title{
-font-size:16px;
-font-weight:bold;
-color:#0a7cff;
-margin:15px 0 10px;
-}
-
-/* SERVICE GRID */
-.services{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:10px;
-margin:10px 0;
-}
-
-.service{
-background:#f8f9ff;
-padding:10px;
-border-radius:10px;
-text-align:left;
-box-shadow:0 2px 6px rgba(0,0,0,0.05);
-}
-
-.service h3{
-margin:0;
-font-size:13px;
-color:#0a7cff;
-}
-
-.service p{
-margin:5px 0 0;
-font-size:11px;
-color:#555;
-}
-
-/* BUTTON */
 .btn{
-display:block;
-padding:12px;
-color:white;
-text-decoration:none;
-border-radius:6px;
-font-size:16px;
-margin-top:10px;
+    display:inline-block;
+    padding:12px 20px;
+    background:white;
+    color:#1e88e5;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+    min-width:140px;
+    text-align:center;
 }
 
-.call-btn{background:#0a7cff;}
-.whatsapp-btn{background:#25D366;}
+.btn:hover{
+    background:#0d47a1;
+    color:white;
+}
+
+/* SERVICES SECTION */
+.services{
+    padding:60px 15px;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:30px;
+    font-size:26px;
+}
+
+/* GRID */
+.service-container{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+/* BOX */
+.service-box{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.service-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+.service-box h3{
+    margin:10px 0;
+    color:#1e88e5;
+}
+
+/* BOTTOM BUTTON SECTION */
+.bottom-buttons{
+    text-align:center;
+    padding:40px 15px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:1024px){
+    .service-container{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media (max-width:600px){
+    .hero h1{
+        font-size:28px;
+    }
+
+    .service-container{
+        grid-template-columns:1fr;
+    }
+
+    .btn{
+        width:100%;
+        max-width:300px;
+    }
+}
 
 </style>
-
 </head>
 
 <body>
 
-<div class="box">
+<!-- HERO SECTION -->
+<div class="hero">
+    <h1>Physio Seba</h1>
+    <p>Trusted Physiotherapy & Home Care Service</p>
 
-<!-- TOP BUTTON -->
-<a class="btn call-btn" href="tel:01914958611">
-📞 Call Now
-</a>
-
-<a class="btn whatsapp-btn" href="https://wa.me/8801914958611">
-💬 WhatsApp
-</a>
-
-<img class="logo" src="https://raw.githubusercontent.com/physioseba/physioseba/main/f7096a4e-f2b7-4f99-a1e3-bb4332cf7a14.jfif">
-
-<h1>PHYSIO SEBA</h1>
-<p>Home Physiotherapy Service in Dhaka</p>
-
-<img class="main-img" src="https://raw.githubusercontent.com/physioseba/physioseba/main/9b7268b4-b19d-4327-9610-ad2dff9ae98a.jfif">
-
-<div class="trust">
-✔ 120+ Registered Physiotherapists<br>
-✔ Home Service Within 2 Hours in Dhaka<br>
-✔ Experienced & Certified Therapists<br>
-✔ 1000+ Happy Patients
+    <div class="btn-group">
+        <a href="#" class="btn">Home Service</a>
+        <a href="#" class="btn">Book Appointment</a>
+    </div>
 </div>
 
-<div class="section-title">Our Physiotherapy Services</div>
-
-<!-- GRID BOX SERVICES -->
+<!-- SERVICES -->
 <div class="services">
+    <h2>Our Physiotherapy Services</h2>
 
-<div class="service">
-<h3>♿ Stroke Rehab</h3>
-<p>Improve mobility & independence</p>
+    <div class="service-container">
+
+        <div class="service-box">
+            <h3>Stroke Rehab</h3>
+            <p>Advanced recovery therapy for stroke patients.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Sports Injury Rehab</h3>
+            <p>Fast recovery for sports injuries and athletes.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Back Pain Therapy</h3>
+            <p>Relief from chronic back and spine pain.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Home Visit Service</h3>
+            <p>Physiotherapy treatment at your home.</p>
+        </div>
+
+    </div>
 </div>
 
-<div class="service">
-<h3>🧠 Neuro Physio</h3>
-<p>Neurological condition care</p>
-</div>
-
-<div class="service">
-<h3>🦴 Pain Management</h3>
-<p>Back & joint pain relief</p>
-</div>
-
-<div class="service">
-<h3>🩼 Post-Surgery</h3>
-<p>Fast recovery support</p>
-</div>
-
-<div class="service">
-<h3>🚶 Balance Training</h3>
-<p>Walking stability improvement</p>
-</div>
-
-</div>
-
-<!-- BOTTOM BUTTON -->
-<a class="btn call-btn" href="tel:01914958611">
-📞 Call Now
-</a>
-
-<a class="btn whatsapp-btn" href="https://wa.me/8801914958611">
-💬 WhatsApp
-</a>
-
+<!-- SECOND BUTTON SECTION -->
+<div class="bottom-buttons">
+    <a href="#" class="btn">Call Now</a>
+    <a href="#" class="btn">WhatsApp</a>
 </div>
 
 </body>
