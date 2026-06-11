@@ -18,6 +18,7 @@ body{
     min-height:100vh;
 }
 
+/* MAIN BOX */
 .box{
     background:#fff;
     padding:20px;
@@ -28,6 +29,7 @@ body{
     width:100%;
 }
 
+/* LOGO */
 .logo{
     width:80px;
     height:80px;
@@ -37,12 +39,14 @@ body{
     margin-bottom:10px;
 }
 
+/* MAIN IMAGE */
 .main-img{
     width:100%;
     border-radius:10px;
     margin:10px 0;
 }
 
+/* TITLE */
 h1{
     color:#0a7cff;
     margin:5px 0;
@@ -55,6 +59,7 @@ p{
     font-size:14px;
 }
 
+/* TRUST */
 .trust{
     text-align:left;
     background:#f8f9ff;
@@ -66,6 +71,7 @@ p{
     line-height:1.6;
 }
 
+/* BUTTONS */
 .btn{
     display:block;
     margin-top:10px;
@@ -86,47 +92,56 @@ p{
 }
 
 /* SERVICES */
+.services{
+    margin-top:20px;
+}
 
+.section-title{
+    text-align:center;
+    color:#0a7cff;
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+/* SERVICE CARD */
 .service-card{
     background:#fff;
     border:1px solid #e5e5e5;
     border-radius:10px;
     padding:15px;
-    margin-top:15px;
+    margin-top:12px;
     text-align:center;
     box-shadow:0 2px 5px rgba(0,0,0,0.05);
+    transition:0.3s;
+}
+
+/* HOVER EFFECT */
+.service-card:hover{
+    transform:translateY(-8px) scale(1.02);
+    box-shadow:0 12px 25px rgba(0,0,0,0.15);
+    background:#f5f9ff;
 }
 
 .service-icon{
-    font-size:40px;
-    margin-bottom:8px;
+    font-size:35px;
+    margin:8px 0;
 }
 
 .service-card h3{
     margin:8px 0;
     color:#0a7cff;
-    font-size:18px;
+    font-size:16px;
 }
 
 .service-card p{
     color:#555;
+    font-size:13px;
     line-height:1.5;
-    margin-bottom:12px;
 }
 
-.service-btn{
-    display:inline-block;
-    padding:10px 18px;
-    background:#0a7cff;
-    color:#fff;
-    text-decoration:none;
-    border-radius:6px;
-    font-size:14px;
-    font-weight:bold;
-}
-
-.service-btn:hover{
-    background:#0866d6;
+/* FINAL BUTTONS INSIDE SERVICES */
+.services .btn{
+    margin-top:12px;
 }
 
 </style>
@@ -137,15 +152,15 @@ p{
 <div class="box">
 
     <!-- LOGO -->
-    <img class="logo" src="https://raw.githubusercontent.com/physioseba/physioseba/main/f7096a4e-f2b7-4f99-a1e3-bb4332cf7a14.jfif" alt="PHYSIO SEBA Logo">
+    <img class="logo" src="https://raw.githubusercontent.com/physioseba/physioseba/main/f7096a4e-f2b7-4f99-a1e3-bb4332cf7a14.jfif">
 
     <h1>PHYSIO SEBA</h1>
     <p>Home Physiotherapy Service in Dhaka</p>
 
     <!-- MAIN IMAGE -->
-    <img class="main-img" src="https://raw.githubusercontent.com/physioseba/physioseba/main/9b7268b4-b19d-4327-9610-ad2dff9ae98a.jfif" alt="Physiotherapy Service">
+    <img class="main-img" src="https://raw.githubusercontent.com/physioseba/physioseba/main/9b7268b4-b19d-4327-9610-ad2dff9ae98a.jfif">
 
-    <!-- TRUST POINTS -->
+    <!-- TRUST -->
     <div class="trust">
         ✔ 120+ Registered Physiotherapists<br>
         ✔ Home Service Within 2 Hours in Dhaka<br>
@@ -153,58 +168,55 @@ p{
         ✔ 1000+ Happy Patients
     </div>
 
-    <!-- CONTACT BUTTONS -->
-    <a class="btn call-btn" href="tel:01914958611">
-        📞 Call Now
-    </a>
-
-    <a class="btn whatsapp-btn" href="https://wa.me/8801914958611">
-        💬 WhatsApp
-    </a>
+    <!-- BUTTONS TOP -->
+    <a class="btn call-btn" href="tel:01914958611">📞 Call Now</a>
+    <a class="btn whatsapp-btn" href="https://wa.me/8801914958611">💬 WhatsApp</a>
 
     <!-- SERVICES -->
-<h1>Our Physiotherapy Services</h1>
-    <div class="service-card">
-        
-        <h3>Stroke Rehabilitation</h3> 
-        <div class="service-icon">🩺</div>
-        <p>Improve mobility, strength, balance, and independence after stroke through personalized rehabilitation programs.</p>
-        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
-    </div>
+    <div class="services">
 
-    <div class="service-card">
-        <div class="service-icon">🧠</div>
-        <h3>Neurological Physiotherapy</h3>
-        <p>Specialized treatment for Parkinson's disease, facial palsy, spinal cord injuries, and other neurological conditions.</p>
-        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
-    </div>
+        <div class="section-title">Our Physiotherapy Services</div>
 
-    <div class="service-card">
-        <div class="service-icon">💪</div>
-        <h3>Pain Management</h3>
-        <p>Effective treatment for back pain, neck pain, shoulder pain, knee pain, and musculoskeletal disorders.</p>
-        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
-    </div>
+        <div class="service-card">
+            <div class="service-icon">🩺</div>
+            <h3>Stroke Rehabilitation</h3>
+            <p>Improve mobility, strength, balance, and independence after stroke.</p>
+        </div>
 
-    <div class="service-card">
-        <div class="service-icon">🏥</div>
-        <h3>Post-Surgery Rehabilitation</h3>
-        <p>Accelerate recovery after joint replacement, fracture fixation, ligament repair, and other surgeries.</p>
-        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
-    </div>
+        <div class="service-card">
+            <div class="service-icon">🧠</div>
+            <h3>Neurological Physiotherapy</h3>
+            <p>Treatment for Parkinson’s disease, spinal cord injuries and neurological problems.</p>
+        </div>
 
-    <div class="service-card">
-        <div class="service-icon">🚶</div>
-        <h3>Walking & Balance Training</h3>
-        <p>Improve gait, balance, coordination, and confidence while reducing the risk of falls.</p>
-        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
-    </div>
+        <div class="service-card">
+            <div class="service-icon">💪</div>
+            <h3>Pain Management</h3>
+            <p>Back, neck, shoulder, knee pain and musculoskeletal disorders treatment.</p>
+        </div>
 
-    <div class="service-card">
-        <div class="service-icon">⚽</div>
-        <h3>Sports Injury Rehabilitation</h3>
-        <p>Recover safely from sports injuries, improve performance, and return to activities stronger and faster.</p>
-        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
+        <div class="service-card">
+            <div class="service-icon">🏥</div>
+            <h3>Post-Surgery Rehabilitation</h3>
+            <p>Recovery after surgery like joint replacement and fracture fixation.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">🚶</div>
+            <h3>Walking & Balance Training</h3>
+            <p>Improve walking, balance and coordination safely.</p>
+        </div>
+
+        <div class="service-card">
+            <div class="service-icon">⚽</div>
+            <h3>Sports Injury Rehabilitation</h3>
+            <p>Fast recovery from sports injuries and muscle strain.</p>
+        </div>
+
+        <!-- FINAL BUTTONS -->
+        <a class="btn call-btn" href="tel:01914958611">📞 Call Now</a>
+        <a class="btn whatsapp-btn" href="https://wa.me/8801914958611">💬 WhatsApp</a>
+
     </div>
 
 </div>
