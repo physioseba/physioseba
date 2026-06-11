@@ -1,175 +1,212 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>PHYSIO SEBA</title>
-
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHYSIO SEBA</title>
 
 <style>
 
 body{
-margin:0;
-padding:20px;
-font-family:Arial;
-background:#f3f3f3;
-display:flex;
-justify-content:center;
-align-items:flex-start;
-min-height:100vh;
+    margin:0;
+    padding:20px;
+    font-family:Arial, sans-serif;
+    background:#f3f3f3;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
 }
 
-/* MAIN CARD */
 .box{
-background:#fff;
-padding:20px;
-border-radius:12px;
-text-align:center;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-max-width:420px;
-width:100%;
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    max-width:420px;
+    width:100%;
 }
 
-/* LOGO */
 .logo{
-width:80px;
-height:80px;
-object-fit:cover;
-border-radius:50%;
-border:2px solid #0a7cff;
-margin-bottom:10px;
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:50%;
+    border:2px solid #0a7cff;
+    margin-bottom:10px;
 }
 
-/* MAIN IMAGE */
 .main-img{
-width:100%;
-border-radius:10px;
-margin:10px 0;
+    width:100%;
+    border-radius:10px;
+    margin:10px 0;
 }
 
-/* TITLE */
 h1{
-color:#0a7cff;
-margin:5px 0;
-font-size:22px;
+    color:#0a7cff;
+    margin:5px 0;
+    font-size:22px;
 }
 
 p{
-margin:5px 0;
-color:#555;
-font-size:14px;
+    margin:5px 0;
+    color:#555;
+    font-size:14px;
 }
 
-/* TRUST BOX */
 .trust{
-text-align:left;
-background:#f8f9ff;
-padding:10px;
-border-radius:8px;
-margin:10px 0;
-font-size:13px;
-color:#333;
-line-height:1.5;
+    text-align:left;
+    background:#f8f9ff;
+    padding:10px;
+    border-radius:8px;
+    margin:15px 0;
+    font-size:13px;
+    color:#333;
+    line-height:1.6;
 }
 
-/* BUTTON */
 .btn{
-display:block;
-margin-top:10px;
-padding:12px;
-color:white;
-text-decoration:none;
-border-radius:6px;
-font-size:16px;
+    display:block;
+    margin-top:10px;
+    padding:12px;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:16px;
+    font-weight:bold;
 }
 
 .call-btn{
-background:#0a7cff;
+    background:#0a7cff;
 }
 
 .whatsapp-btn{
-background:#25D366;
+    background:#25D366;
+}
+
+/* SERVICES */
+
+.service-card{
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-radius:10px;
+    padding:15px;
+    margin-top:15px;
+    text-align:center;
+    box-shadow:0 2px 5px rgba(0,0,0,0.05);
+}
+
+.service-icon{
+    font-size:40px;
+    margin-bottom:8px;
+}
+
+.service-card h3{
+    margin:8px 0;
+    color:#0a7cff;
+    font-size:18px;
+}
+
+.service-card p{
+    color:#555;
+    line-height:1.5;
+    margin-bottom:12px;
+}
+
+.service-btn{
+    display:inline-block;
+    padding:10px 18px;
+    background:#0a7cff;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.service-btn:hover{
+    background:#0866d6;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <div class="box">
 
-<!-- LOGO (TOP) -->
-<img class="logo" src="https://raw.githubusercontent.com/physioseba/physioseba/main/f7096a4e-f2b7-4f99-a1e3-bb4332cf7a14.jfif">
+    <!-- LOGO -->
+    <img class="logo" src="https://raw.githubusercontent.com/physioseba/physioseba/main/f7096a4e-f2b7-4f99-a1e3-bb4332cf7a14.jfif" alt="PHYSIO SEBA Logo">
 
-<h1>PHYSIO SEBA</h1>
-<p>Home Physiotherapy Service in Dhaka</p>
+    <h1>PHYSIO SEBA</h1>
+    <p>Home Physiotherapy Service in Dhaka</p>
 
-<!-- MAIN IMAGE -->
-<img class="main-img" src="https://raw.githubusercontent.com/physioseba/physioseba/main/9b7268b4-b19d-4327-9610-ad2dff9ae98a.jfif">
+    <!-- MAIN IMAGE -->
+    <img class="main-img" src="https://raw.githubusercontent.com/physioseba/physioseba/main/9b7268b4-b19d-4327-9610-ad2dff9ae98a.jfif" alt="Physiotherapy Service">
 
+    <!-- TRUST POINTS -->
+    <div class="trust">
+        ✔ 120+ Registered Physiotherapists<br>
+        ✔ Home Service Within 2 Hours in Dhaka<br>
+        ✔ Experienced & Certified Therapists<br>
+        ✔ 1000+ Happy Patients
+    </div>
 
-<!-- TRUST POINT -->
-<div class="trust">
-✔ 120+ Registered Physiotherapists<br>
-✔ Home Service Within 2 Hours in Dhaka<br>
-✔ Experienced & Certified Therapists<br>
-✔ 1000+ Happy Patients
+    <!-- CONTACT BUTTONS -->
+    <a class="btn call-btn" href="tel:01914958611">
+        📞 Call Now
+    </a>
+
+    <a class="btn whatsapp-btn" href="https://wa.me/8801914958611">
+        💬 WhatsApp
+    </a>
+
+    <!-- SERVICES -->
+
+    <div class="service-card">
+        <div class="service-icon">🩺</div>
+        <h3>Stroke Rehabilitation</h3>
+        <p>Improve mobility, strength, balance, and independence after stroke through personalized rehabilitation programs.</p>
+        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">🧠</div>
+        <h3>Neurological Physiotherapy</h3>
+        <p>Specialized treatment for Parkinson's disease, facial palsy, spinal cord injuries, and other neurological conditions.</p>
+        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">💪</div>
+        <h3>Pain Management</h3>
+        <p>Effective treatment for back pain, neck pain, shoulder pain, knee pain, and musculoskeletal disorders.</p>
+        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">🏥</div>
+        <h3>Post-Surgery Rehabilitation</h3>
+        <p>Accelerate recovery after joint replacement, fracture fixation, ligament repair, and other surgeries.</p>
+        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">🚶</div>
+        <h3>Walking & Balance Training</h3>
+        <p>Improve gait, balance, coordination, and confidence while reducing the risk of falls.</p>
+        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
+    </div>
+
+    <div class="service-card">
+        <div class="service-icon">⚽</div>
+        <h3>Sports Injury Rehabilitation</h3>
+        <p>Recover safely from sports injuries, improve performance, and return to activities stronger and faster.</p>
+        <a href="tel:01914958611" class="service-btn">Book Appointment</a>
+    </div>
+
 </div>
 
-<!-- BUTTONS -->
-<a class="btn call-btn" href="tel:01914958611">
-📞 Call Now
-</a>
-<a class="btn whatsapp-btn" href="https://wa.me/8801914958611">
-💬 WhatsApp
-</a>
-</div>
-    <!-- Stroke Rehabilitation -->
-<div class="service-card">
-    <div class="service-icon">🩺</div>
-    <h3>Stroke Rehabilitation</h3>
-    <p>Improve mobility, strength, balance, and independence after stroke through personalized rehabilitation programs.</p>
-    <a href="#contact" class="service-btn">Book Appointment</a>
-</div>
-
-<!-- Neurological Physiotherapy -->
-<div class="service-card">
-    <div class="service-icon">🧠</div>
-    <h3>Neurological Physiotherapy</h3>
-    <p>Specialized treatment for Parkinson's disease, facial palsy, spinal cord injuries, and other neurological conditions.</p>
-    <a href="#contact" class="service-btn">Book Appointment</a>
-</div>
-
-<!-- Pain Management -->
-<div class="service-card">
-    <div class="service-icon">💪</div>
-    <h3>Pain Management</h3>
-    <p>Effective treatment for back pain, neck pain, shoulder pain, knee pain, and musculoskeletal disorders.</p>
-    <a href="#contact" class="service-btn">Book Appointment</a>
-</div>
-
-<!-- Post-Surgery Rehabilitation -->
-<div class="service-card">
-    <div class="service-icon">🏥</div>
-    <h3>Post-Surgery Rehabilitation</h3>
-    <p>Accelerate recovery after joint replacement, fracture fixation, ligament repair, and other surgeries.</p>
-    <a href="#contact" class="service-btn">Book Appointment</a>
-</div>
-
-<!-- Walking & Balance Training -->
-<div class="service-card">
-    <div class="service-icon">🚶</div>
-    <h3>Walking & Balance Training</h3>
-    <p>Improve gait, balance, coordination, and confidence while reducing the risk of falls.</p>
-    <a href="#contact" class="service-btn">Book Appointment</a>
-</div>
-
-<!-- Sports Injury Rehabilitation -->
-<div class="service-card">
-    <div class="service-icon">⚽</div>
-    <h3>Sports Injury Rehabilitation</h3>
-    <p>Recover safely from sports injuries, improve performance, and return to activities stronger and faster.</p>
-    <a href="#contact" class="service-btn">Book Appointment</a>
-</div>
 </body>
 </html>
