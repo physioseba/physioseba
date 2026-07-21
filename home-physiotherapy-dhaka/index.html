@@ -88,7 +88,7 @@
     {"@type": "Question","name": "What conditions do you treat with home physiotherapy?","acceptedAnswer": {"@type": "Answer","text": "We treat back pain, neck pain, sciatica, frozen shoulder, knee pain, arthritis, Parkinson's disease, Bell's palsy, paralysis, disc problems and sports injuries among other conditions."}},
     {"@type": "Question","name": "Is home physiotherapy effective compared to clinic visits?","acceptedAnswer": {"@type": "Answer","text": "Home physiotherapy is highly effective, especially for elderly, post-surgery and stroke patients, since treatment happens in a familiar environment with equipment brought directly to your home."}},
     {"@type": "Question","name": "How much does a home physiotherapy session cost in Dhaka?","acceptedAnswer": {"@type": "Answer","text": "Pricing depends on the condition, duration and equipment required. Call 01914958611 for an affordable, transparent quote tailored to your treatment plan."}},
-    {"@type": "Question","name": "Do you bring physiotherapy equipment to the home?","acceptedAnswer": {"@type": "Answer","text": "Yes, our therapists carry portable equipment including TENS, IFT, ultrasound, SWD, traction and infrared devices as needed for your treatment."}},
+    {"@type": "Question","name": "Do you bring physiotherapy equipment to the home?","acceptedAnswer": {"@type": "Answer","text": "Yes, our therapists carry portable equipment including TENS, IFT, ultrasound, SWD, traction, wax bath and infrared devices as needed for your treatment."}},
     {"@type": "Question","name": "Which areas in Dhaka do you cover?","acceptedAnswer": {"@type": "Answer","text": "We cover Dhaka city and surrounding areas including Mirpur, Uttara, Gulshan, Banani, Badda, Dhanmondi, Malibagh, Motijheel, Mohammadpur, Bashundhara, Gazipur and Narayanganj."}},
     {"@type": "Question","name": "How do I book a home physiotherapy session?","acceptedAnswer": {"@type": "Answer","text": "You can book instantly by calling 01914958611 or sending a message on WhatsApp. Our team will confirm your assessment and schedule a home visit."}}
   ]
@@ -135,7 +135,7 @@
   }
   h1,h2,h3{font-family:'Poppins',system-ui,sans-serif;line-height:1.2;margin:0 0 .5em;color:var(--ink);}
   p{margin:0 0 1em;color:var(--ink-soft);}
-  img{max-width:100%;display:block;}
+  img{max-width:100%;height:auto;display:block;}
   a{color:inherit;text-decoration:none;}
   .container{max-width:var(--container);margin:0 auto;padding:0 20px;}
   .skip-link{position:absolute;left:-999px;top:0;background:var(--blue);color:#fff;padding:10px 16px;z-index:1000;border-radius:0 0 8px 0;}
@@ -249,7 +249,7 @@
 
   /* Success story */
   .success-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:34px;align-items:center;}
-  .success-grid img{border-radius:18px;box-shadow:var(--shadow);}
+  .success-grid img{border-radius:18px;box-shadow:var(--shadow);width:100%;height:auto;object-fit:cover;aspect-ratio:4/3;}
 
   /* Testimonials */
   .testimonial-card{background:#fff;border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);border:1px solid #EEF3F8;}
@@ -329,19 +329,25 @@
     .process-steps{grid-template-columns:repeat(3,1fr);}
     .grid-equipment{grid-template-columns:repeat(3,1fr);}
     .success-grid{grid-template-columns:1fr;}
-    .success-grid img{max-width:420px;margin:0 auto;}
+    .success-grid img{width:100%;max-width:100%;aspect-ratio:16/11;}
     .footer-grid{grid-template-columns:1fr 1fr;}
   }
   @media (max-width:640px){
     .container{padding:0 16px;}
-    .hero{padding:16px 0 24px;}
-    h1{font-size:clamp(24px,7vw,30px);}
-    .hero-sub{font-size:14.5px;}
+    /* Compact hero: headline + image + Call/WhatsApp fit without scrolling on a phone screen */
+    .hero{padding:12px 0 18px;}
+    .hero-grid{row-gap:12px;}
+    .hero-intro .eyebrow{display:none;} /* dropped on mobile to save vertical space */
+    h1{font-size:clamp(22px,6.5vw,28px);margin-bottom:.3em;}
+    .hero-sub{font-size:13.5px;max-width:none;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+    .hero-media{max-width:280px;}
+    .hero-media img{aspect-ratio:4/3;object-fit:cover;}
+    .hero-media-badge{padding:7px 12px;bottom:-12px;left:-10px;}
+    .hero-media-badge strong{font-size:16px;}
     .hero-ctas{gap:10px;}
-    .hero-ctas .btn{padding:14px 8px;font-size:14px;gap:6px;}
+    .hero-ctas .btn{padding:13px 8px;font-size:14px;gap:6px;}
     .hero-ctas .btn .icon{width:17px;height:17px;}
-    .trust-badges{gap:8px;justify-content:center;}
-    .trust-badges li{font-size:12px;padding:6px 10px;}
+    .trust-badges{display:none;} /* moved out of the first viewport; still shown from tablet width up */
     .section{padding:40px 0;}
     /* Why Choose, Services, and Recovery Journey stack to a single column on mobile */
     .why-section .grid-4,
@@ -643,7 +649,7 @@
         </div>
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">Do you bring physiotherapy equipment to the home?<span class="faq-icon" aria-hidden="true"></span></button>
-          <div class="faq-answer"><p>Yes, our therapists carry portable equipment including TENS, IFT, ultrasound, SWD, traction and infrared devices as needed for your treatment.</p></div>
+          <div class="faq-answer"><p>Yes, our therapists carry portable equipment including TENS, IFT, ultrasound, SWD, traction, wax bath and infrared devices as needed for your treatment.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">Which areas in Dhaka do you cover?<span class="faq-icon" aria-hidden="true"></span></button>
@@ -781,7 +787,7 @@
   });
 
   // Equipment -> clickable WhatsApp items
-  var equipment = ["TENS","IFT","Ultrasound","SWD","Traction","Infrared","Shockwave","CPM","Robotic Rehabilitation"];
+  var equipment = ["TENS","IFT","Ultrasound","SWD","Traction","Infrared","Wax Bath","Shockwave","CPM","Robotic Rehabilitation"];
   var equipList = document.getElementById('equipment-list');
   equipment.forEach(function(name){
     var a = document.createElement('a');
