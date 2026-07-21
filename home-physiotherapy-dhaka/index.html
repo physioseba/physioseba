@@ -26,11 +26,10 @@
 <meta name="twitter:description" content="Professional home physiotherapy service at your doorstep in Dhaka. 120+ registered physiotherapists.">
 <meta name="twitter:image" content="https://physioseba.com/home-physiotherapy-dhaka/images/og-cover.jpg">
 
+<!-- Preconnects kept minimal + font-display:swap for fast first paint -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
 
 <link rel="icon" type="image/png" href="/favicon-96x96.png?v=v2" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=v2" />
@@ -38,7 +37,8 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=v2" />
 <meta name="apple-mobile-web-app-title" content="Physio Seba" />
 <link rel="manifest" href="/site.webmanifest?v=v2" />
-<!-- JSON-LD: MedicalBusiness / LocalBusiness -->
+
+<!-- JSON-LD: MedicalBusiness / LocalBusiness (updated with real clinic address) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,13 +50,21 @@
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Nobin Tower, Kajla, Jatrabari",
     "addressLocality": "Dhaka",
+    "postalCode": "1204",
     "addressCountry": "BD"
   },
   "areaServed": [
     "Dhaka","Mirpur","Uttara","Gulshan","Banani","Badda","Dhanmondi","Malibagh","Motijheel","Mohammadpur","Bashundhara","Gazipur","Narayanganj"
   ],
   "medicalSpecialty": "Physiotherapy",
+  "hasMap": "https://maps.app.goo.gl/ZvBYb9Dk32yF8sws6",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "480"
+  },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
@@ -64,27 +72,6 @@
     "closes": "22:00"
   },
   "sameAs": ["https://physioseba.com"]
-}
-</script>
-
-<!-- JSON-LD: LocalBusiness -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Physio Seba - Home Physiotherapy Dhaka",
-  "telephone": "+8801914958611",
-  "url": "https://physioseba.com/home-physiotherapy-dhaka/",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Dhaka",
-    "addressCountry": "BD"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 23.8103,
-    "longitude": 90.4125
-  }
 }
 </script>
 
@@ -119,6 +106,239 @@
   ]
 }
 </script>
+
+<style>
+  :root{
+    --blue:#0F5FA8;
+    --blue-dark:#0A4A85;
+    --blue-pale:#EAF3FC;
+    --ink:#132437;
+    --ink-soft:#4A5A6B;
+    --paper:#FFFFFF;
+    --paper-alt:#F5F8FB;
+    --whatsapp:#25D366;
+    --whatsapp-dark:#1DA851;
+    --gold:#F5A623;
+    --radius:14px;
+    --shadow:0 10px 30px rgba(15,95,168,.12);
+    --container:1180px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{font-family:'Poppins',system-ui,sans-serif;line-height:1.2;margin:0 0 .5em;color:var(--ink);}
+  p{margin:0 0 1em;color:var(--ink-soft);}
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  .container{max-width:var(--container);margin:0 auto;padding:0 20px;}
+  .skip-link{position:absolute;left:-999px;top:0;background:var(--blue);color:#fff;padding:10px 16px;z-index:1000;border-radius:0 0 8px 0;}
+  .skip-link:focus{left:0;}
+  .icon{width:20px;height:20px;fill:currentColor;flex:none;}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;
+    padding:13px 20px;border-radius:999px;border:2px solid transparent;
+    cursor:pointer;white-space:nowrap;transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
+  }
+  .btn:active{transform:scale(.97);}
+  .btn-primary{background:var(--blue);color:#fff;box-shadow:0 8px 20px rgba(15,95,168,.30);}
+  .btn-primary:hover{background:var(--blue-dark);}
+  .btn-whatsapp{background:var(--whatsapp);color:#fff;box-shadow:0 8px 20px rgba(37,211,102,.30);}
+  .btn-whatsapp:hover{background:var(--whatsapp-dark);}
+  .btn-outline{background:transparent;border-color:var(--blue);color:var(--blue);}
+  .btn-sm{padding:9px 16px;font-size:14px;}
+  .btn-lg{padding:15px 22px;font-size:16px;flex:1 1 0;}
+
+  /* ---------- Header ---------- */
+  .site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid #EAEEF3;}
+  .header-inner{display:flex;align-items:center;justify-content:space-between;height:64px;}
+  .logo{display:flex;align-items:center;gap:10px;font-family:'Poppins',sans-serif;font-weight:700;font-size:19px;color:var(--ink);}
+  .logo img{height:38px;width:auto;border-radius:8px;}
+  .logo-mark{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:var(--blue);color:#fff;font-size:16px;letter-spacing:-1px;}
+  .logo-mark span{color:var(--gold);}
+  .logo-text strong{color:var(--blue);}
+
+  /* ---------- Hero (Call + WhatsApp guaranteed above the fold) ---------- */
+  .hero{padding:26px 0 32px;background:linear-gradient(180deg,var(--blue-pale) 0%, #fff 78%);}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center;}
+  .eyebrow{font-family:'Poppins',sans-serif;font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);margin:0 0 10px;}
+  .eyebrow.center{text-align:center;}
+  h1{font-size:clamp(28px,4.6vw,44px);font-weight:800;}
+  .hero-sub{font-size:16px;max-width:52ch;}
+  .hero-ctas{display:flex;flex-direction:row;gap:12px;margin:18px 0 4px;}
+  .hero-ctas .btn{flex:1 1 0;}
+  .trust-badges{list-style:none;margin:20px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px 18px;}
+  .trust-badges li{display:flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;color:var(--ink);background:#fff;border:1px solid #E3ECF5;padding:7px 12px;border-radius:999px;}
+  .trust-badges .icon{width:16px;height:16px;color:var(--blue);}
+  .hero-media{position:relative;}
+  .hero-media img{border-radius:20px;box-shadow:var(--shadow);}
+  .hero-media-badge{position:absolute;bottom:-16px;left:-16px;background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:10px 16px;display:flex;flex-direction:column;line-height:1.1;}
+  .hero-media-badge strong{font-family:'Poppins',sans-serif;font-size:20px;color:var(--gold);}
+  .hero-media-badge span{font-size:11px;color:var(--ink-soft);font-weight:600;}
+
+  /* ---------- Sections ---------- */
+  .section{padding:56px 0;}
+  .alt-bg{background:var(--paper-alt);}
+  .section-sub{text-align:center;max-width:60ch;margin:0 auto 30px;}
+  h2{font-size:clamp(24px,3.4vw,32px);text-align:center;}
+
+  .grid{display:grid;gap:22px;}
+  .grid-4{grid-template-columns:repeat(4,1fr);}
+  .grid-3{grid-template-columns:repeat(3,1fr);}
+  .grid-equipment{grid-template-columns:repeat(5,1fr);}
+
+  .feature-card,.service-card{background:#fff;border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);border:1px solid #EEF3F8;}
+  .service-card{padding:0 0 18px;overflow:hidden;}
+  .service-card img{aspect-ratio:16/10;object-fit:cover;}
+  .service-card h3,.service-card p{padding:0 18px;}
+  .service-card h3{margin-top:14px;font-size:18px;}
+  .service-card p{font-size:14.5px;}
+  .feature-icon{width:46px;height:46px;border-radius:12px;background:var(--blue-pale);display:flex;align-items:center;justify-content:center;margin-bottom:14px;}
+  .feature-icon svg{width:24px;height:24px;fill:var(--blue);}
+  .feature-card h3{font-size:17px;}
+  .feature-card p{font-size:14.5px;margin:0;}
+
+  /* Clickable chips -> WhatsApp (Conditions) */
+  .chip-grid{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:12px;justify-content:center;}
+  .chip{
+    display:inline-flex;align-items:center;gap:7px;
+    background:#fff;border:1.5px solid var(--blue);color:var(--blue);
+    font-weight:600;font-size:14.5px;padding:10px 18px;border-radius:999px;
+    transition:background .15s, color .15s;
+  }
+  .chip::after{content:"";width:14px;height:14px;background:var(--whatsapp);mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20.5 3.5A11 11 0 0 0 3.3 17.4L2 22l4.7-1.2A11 11 0 1 0 20.5 3.5zm-8.5 17a9 9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A9 9 0 1 1 12 20.5z'/%3E%3C/svg%3E") center/contain no-repeat;}
+  .chip:hover{background:var(--blue);color:#fff;}
+
+  /* Process */
+  .process-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:18px;counter-reset:step;}
+  .process-step{background:#fff;border-radius:var(--radius);padding:20px 16px;text-align:center;box-shadow:var(--shadow);}
+  .step-num{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--blue);color:#fff;font-family:'Poppins',sans-serif;font-weight:700;margin-bottom:10px;}
+  .process-step h3{font-size:16px;}
+  .process-step p{font-size:13.5px;margin:0;}
+
+  /* Clickable equipment -> WhatsApp */
+  .equipment-item{
+    background:#fff;border:1px solid #E3ECF5;border-radius:12px;padding:18px 12px;text-align:center;
+    font-weight:600;font-size:14px;color:var(--ink);box-shadow:0 4px 14px rgba(15,95,168,.06);
+    display:flex;align-items:center;justify-content:center;gap:8px;transition:transform .15s, background .15s;
+  }
+  .equipment-item::before{content:"";width:15px;height:15px;background:var(--whatsapp);mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20.5 3.5A11 11 0 0 0 3.3 17.4L2 22l4.7-1.2A11 11 0 1 0 20.5 3.5zm-8.5 17a9 9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A9 9 0 1 1 12 20.5z'/%3E%3C/svg%3E") center/contain no-repeat;flex:none;}
+  .equipment-item:hover{transform:translateY(-2px);background:var(--blue-pale);}
+
+  /* Success story */
+  .success-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:34px;align-items:center;}
+  .success-grid img{border-radius:18px;box-shadow:var(--shadow);}
+
+  /* Testimonials */
+  .testimonial-card{background:#fff;border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);border:1px solid #EEF3F8;}
+  .testimonial-card p{font-style:italic;font-size:14.5px;}
+  .testimonial-card footer strong{display:block;font-size:14px;color:var(--ink);}
+  .testimonial-card footer span{font-size:12.5px;color:var(--ink-soft);}
+
+  /* FAQ */
+  .faq-list{max-width:820px;margin:0 auto;}
+  .faq-item{background:#fff;border:1px solid #E3ECF5;border-radius:12px;margin-bottom:12px;overflow:hidden;}
+  .faq-question{width:100%;text-align:left;background:none;border:0;padding:16px 18px;font-family:'Poppins',sans-serif;font-weight:600;font-size:15px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;}
+  .faq-icon{flex:none;width:20px;height:20px;border-radius:50%;background:var(--blue-pale);position:relative;}
+  .faq-icon::before,.faq-icon::after{content:"";position:absolute;background:var(--blue);}
+  .faq-icon::before{left:5px;right:5px;top:9px;height:2px;}
+  .faq-icon::after{top:5px;bottom:5px;left:9px;width:2px;transition:transform .2s;}
+  .faq-question[aria-expanded="true"] .faq-icon::after{transform:scaleY(0);}
+  .faq-answer{max-height:0;overflow:hidden;transition:max-height .25s ease;}
+  .faq-answer p{padding:0 18px 16px;margin:0;font-size:14.5px;}
+
+  /* Clickable coverage -> WhatsApp */
+  .coverage-grid{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center;}
+  .coverage-grid li a{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--blue-pale);color:var(--blue-dark);font-weight:600;font-size:14px;
+    padding:9px 16px;border-radius:10px;transition:background .15s, color .15s;
+  }
+  .coverage-grid li a::after{content:"";width:13px;height:13px;background:var(--whatsapp);mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20.5 3.5A11 11 0 0 0 3.3 17.4L2 22l4.7-1.2A11 11 0 1 0 20.5 3.5zm-8.5 17a9 9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A9 9 0 1 1 12 20.5z'/%3E%3C/svg%3E") center/contain no-repeat;}
+  .coverage-grid li a:hover{background:var(--blue);color:#fff;}
+
+  /* Map section */
+  .map-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:stretch;}
+  .map-embed{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid #E3ECF5;min-height:320px;}
+  .map-embed iframe{width:100%;height:100%;min-height:320px;border:0;display:block;}
+  .clinic-card{background:#fff;border-radius:var(--radius);padding:26px;box-shadow:var(--shadow);border:1px solid #EEF3F8;display:flex;flex-direction:column;justify-content:center;gap:14px;}
+  .clinic-card h3{font-size:19px;margin:0;}
+  .clinic-card address{font-style:normal;font-size:15px;color:var(--ink-soft);line-height:1.6;}
+  .clinic-card .btn{width:100%;}
+
+  /* Final CTA */
+  .final-cta{background:linear-gradient(135deg,var(--blue) 0%, var(--blue-dark) 100%);color:#fff;text-align:center;}
+  .final-cta h2{color:#fff;}
+  .final-cta p{color:#DCEBFB;max-width:56ch;margin:0 auto 26px;}
+  .final-cta-buttons{display:flex;flex-direction:row;gap:14px;justify-content:center;max-width:640px;margin:0 auto;}
+  .btn-secondary-inverse{background:#fff;color:var(--blue);}
+  .final-cta-note{margin-top:18px;font-size:13.5px;color:#BFDBF7;}
+
+  /* Footer */
+  .site-footer{background:var(--ink);color:#C9D4DE;padding:44px 0 18px;}
+  .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px;padding-bottom:28px;border-bottom:1px solid rgba(255,255,255,.1);}
+  .footer-brand .logo{color:#fff;}
+  .footer-brand p{font-size:13.5px;color:#9FAEBC;margin-top:10px;}
+  .footer-col h3{color:#fff;font-size:14.5px;margin-bottom:12px;}
+  .footer-col ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;font-size:13.5px;}
+  .footer-col a:hover{color:#fff;}
+  .footer-bottom{padding-top:16px;text-align:center;font-size:12.5px;color:#8494A5;}
+
+  /* Sticky mobile CTA */
+  .sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;}
+  .sticky-btn{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;padding:11px 0 calc(9px + env(safe-area-inset-bottom));font-family:'Poppins',sans-serif;font-weight:600;font-size:12.5px;}
+  .sticky-call{background:var(--blue);color:#fff;}
+  .sticky-whatsapp{background:var(--whatsapp);color:#fff;}
+
+  .reveal{opacity:1;} /* progressive-enhancement hook only; no motion required */
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:980px){
+    .hero-grid{grid-template-columns:1fr;}
+    .hero-media{order:-1;max-width:420px;margin:0 auto;}
+    .grid-4{grid-template-columns:repeat(2,1fr);}
+    .grid-3{grid-template-columns:repeat(2,1fr);}
+    .grid-equipment{grid-template-columns:repeat(3,1fr);}
+    .process-steps{grid-template-columns:repeat(3,1fr);}
+    .success-grid{grid-template-columns:1fr;}
+    .success-grid img{max-width:420px;margin:0 auto;}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+    .map-grid{grid-template-columns:1fr;}
+  }
+  @media (max-width:640px){
+    .container{padding:0 16px;}
+    .hero{padding:16px 0 26px;}
+    h1{font-size:clamp(24px,7vw,30px);}
+    .hero-sub{font-size:14.5px;}
+    .hero-ctas{gap:10px;}
+    .hero-ctas .btn{padding:13px 8px;font-size:13.5px;gap:6px;}
+    .hero-ctas .btn .icon{width:17px;height:17px;}
+    .trust-badges{gap:8px;}
+    .trust-badges li{font-size:12px;padding:6px 10px;}
+    .grid-4{grid-template-columns:1fr 1fr;}
+    .grid-3{grid-template-columns:1fr;}
+    .grid-equipment{grid-template-columns:repeat(2,1fr);}
+    .process-steps{grid-template-columns:1fr 1fr;}
+    .footer-grid{grid-template-columns:1fr;}
+    body{padding-bottom:64px;} /* room for sticky cta */
+    .sticky-cta{display:flex;}
+    .final-cta-buttons{flex-direction:column;}
+    .header-cta .btn-sm span{display:none;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto;}
+    *{transition:none !important;}
+  }
+</style>
 </head>
 <body>
 
@@ -128,13 +348,15 @@
 <header class="site-header">
   <div class="container header-inner">
     <a href="https://physioseba.com" class="logo" aria-label="Physio Seba home">
-      <span class="logo-mark" aria-hidden="true">P<span>S</span></span>
+      <!-- Add your logo file to /images/logo.png and it will replace the mark below automatically -->
+      <img src="images/logo.png" alt="Physio Seba logo" width="38" height="38"
+           onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'logo-mark',innerHTML:'P&lt;span&gt;S&lt;/span&gt;'}))">
       <span class="logo-text">Physio<strong>Seba</strong></span>
     </a>
     <div class="header-cta">
       <a href="tel:+8801914958611" class="btn btn-outline btn-sm" aria-label="Call Physio Seba now">
         <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.8 21 3 13.2 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>
-        01914958611
+        <span>01914958611</span>
       </a>
     </div>
   </div>
@@ -142,13 +364,13 @@
 
 <main id="main-content">
 
-  <!-- 1. HERO -->
+  <!-- 1. HERO — H1 + Call + WhatsApp guaranteed above the fold, side by side on every screen -->
   <section class="hero" aria-label="Introduction">
     <div class="container hero-grid">
       <div class="hero-copy">
         <p class="eyebrow">Trusted Home Physiotherapy Provider in Dhaka</p>
         <h1>Home Physiotherapy in Dhaka</h1>
-        <p class="hero-sub">Professional Home Physiotherapy Service at Your Doorstep — expert care for stroke, paralysis, back pain, neck pain and post-surgery recovery, delivered by registered physiotherapists.</p>
+        <p class="hero-sub">Expert care for stroke, paralysis, back pain, neck pain and post-surgery recovery — delivered at your doorstep by registered physiotherapists.</p>
 
         <div class="hero-ctas">
           <a href="tel:+8801914958611" class="btn btn-primary btn-lg" data-conversion="call">
@@ -160,13 +382,11 @@
             WhatsApp
           </a>
         </div>
-        <a href="#book" class="btn btn-secondary book-visit-cta">Book Home Visit</a>
 
         <ul class="trust-badges" aria-label="Why patients trust Physio Seba">
           <li><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 2l7 3v6c0 5-3.5 8.4-7 9.6C8.5 19.4 5 16 5 11V5l7-3z"/></svg>120+ Registered Physiotherapists</li>
-          <li><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4 0-8 2-8 5v3h16v-3c0-3-4-5-8-5z"/></svg>Experienced Therapists</li>
-          <li><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M3 10.5L12 4l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1V10.5z"/></svg>Home Visit</li>
-          <li><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>Affordable Care</li>
+          <li><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4 0-8 2-8 5v3h16v-3c0-3-4-5-8-5z"/></svg>500+ Families Treated</li>
+          <li><svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>4.9★ Rated on Google</li>
         </ul>
       </div>
 
@@ -261,25 +481,13 @@
     </div>
   </section>
 
-  <!-- 4. CONDITIONS -->
+  <!-- 4. CONDITIONS — every chip opens WhatsApp with that condition pre-filled -->
   <section class="section conditions-section" aria-labelledby="conditions-heading">
     <div class="container">
       <p class="eyebrow center">Conditions We Treat</p>
       <h2 id="conditions-heading">Conditions We Treat at Home</h2>
-      <ul class="chip-grid">
-        <li class="chip reveal">Stroke</li>
-        <li class="chip reveal">Back Pain</li>
-        <li class="chip reveal">Neck Pain</li>
-        <li class="chip reveal">Sciatica</li>
-        <li class="chip reveal">Frozen Shoulder</li>
-        <li class="chip reveal">Knee Pain</li>
-        <li class="chip reveal">Arthritis</li>
-        <li class="chip reveal">Parkinson's</li>
-        <li class="chip reveal">Bell's Palsy</li>
-        <li class="chip reveal">Paralysis</li>
-        <li class="chip reveal">Disc Problem</li>
-        <li class="chip reveal">Sports Injury</li>
-      </ul>
+      <p class="section-sub">Tap any condition to message us on WhatsApp about it directly.</p>
+      <ul class="chip-grid" id="conditions-list"></ul>
     </div>
   </section>
 
@@ -318,23 +526,13 @@
     </div>
   </section>
 
-  <!-- 6. EQUIPMENT -->
+  <!-- 6. EQUIPMENT — every item opens WhatsApp asking about that equipment -->
   <section class="section equipment-section" aria-labelledby="equipment-heading">
     <div class="container">
       <p class="eyebrow center">Advanced Equipment</p>
       <h2 id="equipment-heading">Clinical-Grade Equipment, Brought Home</h2>
-      <p class="section-sub">Our therapists carry portable, hospital-grade equipment for effective home-based treatment.</p>
-      <div class="grid grid-equipment">
-        <div class="equipment-item reveal"><span>TENS</span></div>
-        <div class="equipment-item reveal"><span>IFT</span></div>
-        <div class="equipment-item reveal"><span>Ultrasound</span></div>
-        <div class="equipment-item reveal"><span>SWD</span></div>
-        <div class="equipment-item reveal"><span>Traction</span></div>
-        <div class="equipment-item reveal"><span>Infrared</span></div>
-        <div class="equipment-item reveal"><span>Shockwave</span></div>
-        <div class="equipment-item reveal"><span>CPM</span></div>
-        <div class="equipment-item reveal"><span>Robotic Rehabilitation</span></div>
-      </div>
+      <p class="section-sub">Our therapists carry portable, hospital-grade equipment for effective home-based treatment. Tap any item to ask us about it.</p>
+      <div class="grid grid-equipment" id="equipment-list"></div>
     </div>
   </section>
 
@@ -435,36 +633,46 @@
     </div>
   </section>
 
-  <!-- 10. COVERAGE AREA -->
-  <section class="section coverage-section" aria-labelledby="coverage-heading">
+  <!-- 10. COVERAGE AREA — every area opens WhatsApp mentioning that area -->
+  <section class="section coverage-section alt-bg" aria-labelledby="coverage-heading">
     <div class="container">
       <p class="eyebrow center">Service Coverage</p>
       <h2 id="coverage-heading">Home Physiotherapy Coverage Across Dhaka</h2>
-      <ul class="coverage-grid">
-        <li class="reveal">Dhaka</li>
-        <li class="reveal">Mirpur</li>
-        <li class="reveal">Uttara</li>
-        <li class="reveal">Gulshan</li>
-        <li class="reveal">Banani</li>
-        <li class="reveal">Badda</li>
-        <li class="reveal">Dhanmondi</li>
-        <li class="reveal">Malibagh</li>
-        <li class="reveal">Motijheel</li>
-        <li class="reveal">Mohammadpur</li>
-        <li class="reveal">Bashundhara</li>
-        <li class="reveal">Gazipur</li>
-        <li class="reveal">Narayanganj</li>
-      </ul>
+      <p class="section-sub">Tap your area to check availability on WhatsApp.</p>
+      <ul class="coverage-grid" id="coverage-list"></ul>
     </div>
   </section>
 
-  <!-- 11. FINAL CTA -->
-  <section class="section final-cta" id="book" aria-labelledby="final-cta-heading">
+  <!-- 11. MAP + CLINIC ADDRESS -->
+  <section class="section map-section" aria-labelledby="map-heading">
+    <div class="container map-grid">
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps?q=Physio+Seba+Dhaka,+Nobin+Tower,+Kajla,+Jatrabari,+Dhaka+1204&output=embed"
+          title="Physio Seba clinic location on Google Maps"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="clinic-card">
+        <p class="eyebrow">Visit or Contact Us</p>
+        <h3 id="map-heading">Physio Seba Clinic</h3>
+        <address>
+          Nobin Tower, Kajla, Jatrabari<br>
+          Dhaka&nbsp;1204, Bangladesh
+        </address>
+        <a href="https://maps.app.goo.gl/ZvBYb9Dk32yF8sws6" class="btn btn-outline" target="_blank" rel="noopener">Get Directions</a>
+        <a href="tel:+8801914958611" class="btn btn-primary">Call 01914958611</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. FINAL CTA -->
+  <section class="section final-cta" aria-labelledby="final-cta-heading">
     <div class="container final-cta-inner">
       <h2 id="final-cta-heading">Start Your Recovery at Home, Today</h2>
       <p>Speak to our care team now and get a registered physiotherapist at your door — no clinic visits, no waiting rooms, just expert care where you're most comfortable.</p>
       <div class="final-cta-buttons">
-        <a href="tel:+8801914958611" class="btn btn-primary btn-lg" data-conversion="call">
+        <a href="tel:+8801914958611" class="btn btn-secondary-inverse btn-lg" data-conversion="call">
           <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.8 21 3 13.2 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>
           Call Now: 01914958611
         </a>
@@ -472,7 +680,6 @@
           <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.3 17.4L2 22l4.7-1.2A11 11 0 1 0 20.5 3.5zm-8.5 17a9 9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A9 9 0 1 1 12 20.5zm5-6.7c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1s1 2.5 1.1 2.6c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
           WhatsApp Us
         </a>
-        <a href="#book" class="btn btn-secondary-inverse btn-lg book-visit-cta">Book Home Visit</a>
       </div>
       <p class="final-cta-note">Available 8:00 AM – 10:00 PM, 7 days a week across Dhaka</p>
     </div>
@@ -499,12 +706,11 @@
       </ul>
     </div>
     <div class="footer-col">
-      <h3>Services</h3>
+      <h3>Clinic Address</h3>
       <ul>
-        <li><a href="#services">Stroke Rehabilitation</a></li>
-        <li><a href="#services">Pain Management</a></li>
-        <li><a href="#services">Post Surgery Rehabilitation</a></li>
-        <li><a href="#services">Geriatric Physiotherapy</a></li>
+        <li>Nobin Tower, Kajla</li>
+        <li>Jatrabari, Dhaka&nbsp;1204</li>
+        <li><a href="https://maps.app.goo.gl/ZvBYb9Dk32yF8sws6" target="_blank" rel="noopener">Get Directions</a></li>
       </ul>
     </div>
     <div class="footer-col">
@@ -534,8 +740,73 @@
   </a>
 </div>
 
-<script src="script.js" defer></script>
+<script>
+(function(){
+  "use strict";
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  var PHONE = "8801914958611";
+  function waLink(text){ return "https://wa.me/" + PHONE + "?text=" + encodeURIComponent(text); }
+
+  // Conditions -> clickable WhatsApp chips
+  var conditions = ["Stroke","Back Pain","Neck Pain","Sciatica","Frozen Shoulder","Knee Pain","Arthritis","Parkinson's","Bell's Palsy","Paralysis","Disc Problem","Sports Injury"];
+  var condList = document.getElementById('conditions-list');
+  conditions.forEach(function(name){
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.className = 'chip reveal';
+    a.href = waLink("Hi, I need home physiotherapy for " + name + ". Please advise.");
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = name;
+    li.appendChild(a);
+    condList.appendChild(li);
+  });
+
+  // Equipment -> clickable WhatsApp items
+  var equipment = ["TENS","IFT","Ultrasound","SWD","Traction","Infrared","Shockwave","CPM","Robotic Rehabilitation"];
+  var equipList = document.getElementById('equipment-list');
+  equipment.forEach(function(name){
+    var a = document.createElement('a');
+    a.className = 'equipment-item reveal';
+    a.href = waLink("Hi, I'd like to know more about " + name + " treatment at home.");
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.innerHTML = "<span>" + name + "</span>";
+    equipList.appendChild(a);
+  });
+
+  // Coverage areas -> clickable WhatsApp items
+  var areas = ["Dhaka","Mirpur","Uttara","Gulshan","Banani","Badda","Dhanmondi","Malibagh","Motijheel","Mohammadpur","Bashundhara","Gazipur","Narayanganj"];
+  var covList = document.getElementById('coverage-list');
+  areas.forEach(function(name){
+    var li = document.createElement('li');
+    var a = document.createElement('a');
+    a.className = 'reveal';
+    a.href = waLink("Hi, is home physiotherapy available in " + name + "?");
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = name;
+    li.appendChild(a);
+    covList.appendChild(li);
+  });
+
+  // FAQ accordion
+  document.querySelectorAll('.faq-question').forEach(function(btn){
+    var answer = btn.nextElementSibling;
+    btn.addEventListener('click', function(){
+      var isOpen = btn.getAttribute('aria-expanded') === 'true';
+      document.querySelectorAll('.faq-question').forEach(function(b){
+        b.setAttribute('aria-expanded','false');
+        b.nextElementSibling.style.maxHeight = null;
+      });
+      if(!isOpen){
+        btn.setAttribute('aria-expanded','true');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
+    });
+  });
+})();
+</script>
 </body>
 </html>
-
-
