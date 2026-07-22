@@ -260,6 +260,209 @@
 }
 </script>
 
+  /* =========================================================
+   PHYSIOTHERAPY TEAM
+========================================================= */
+
+.team-visual{
+  max-width:900px;
+  margin:0 auto 2.5rem;
+  padding:2.2rem 1.5rem;
+  background:
+    linear-gradient(
+      145deg,
+      var(--color-primary),
+      var(--color-primary-dark)
+    );
+  color:#fff;
+  border-radius:var(--radius-lg);
+  text-align:center;
+  box-shadow:var(--shadow-md);
+}
+
+.team-main-icon{
+  width:82px;
+  height:82px;
+  margin:0 auto 1rem;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(255,255,255,.12);
+  color:#fff;
+}
+
+.team-main-icon .icon{
+  width:42px;
+  height:42px;
+}
+
+.team-visual h3{
+  color:#fff;
+  font-size:1.45rem;
+  margin-bottom:.6rem;
+}
+
+.team-visual > p{
+  max-width:650px;
+  margin:0 auto;
+  color:#d9eeee;
+  font-size:.95rem;
+}
+
+.team-badges{
+  margin-top:1.4rem;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:.7rem;
+}
+
+.team-badges span{
+  display:inline-flex;
+  align-items:center;
+  gap:.4rem;
+  padding:.55rem .85rem;
+  border-radius:999px;
+  background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.15);
+  font-size:.82rem;
+  color:#fff;
+}
+
+.team-badges .icon{
+  width:16px;
+  height:16px;
+  color:var(--color-accent);
+}
+
+
+/* Team Cards */
+.team-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:1.5rem;
+}
+
+.team-card{
+  background:var(--color-surface);
+  border:1px solid var(--color-border);
+  border-radius:var(--radius-md);
+  padding:1.7rem 1.4rem;
+  box-shadow:var(--shadow-sm);
+  text-align:center;
+  transition:
+    transform .22s ease,
+    box-shadow .22s ease,
+    border-color .22s ease;
+}
+
+.team-card:hover{
+  transform:translateY(-5px);
+  box-shadow:var(--shadow-md);
+  border-color:transparent;
+}
+
+
+/* Icon Avatar */
+.team-avatar{
+  width:76px;
+  height:76px;
+  margin:0 auto 1.1rem;
+  border-radius:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--color-primary-tint);
+  color:var(--color-primary);
+}
+
+.team-avatar .icon{
+  width:36px;
+  height:36px;
+}
+
+
+/* Team Details */
+.team-info h3{
+  font-size:1.15rem;
+  margin-bottom:.3rem;
+}
+
+.team-degree{
+  color:var(--color-teal);
+  font-size:.87rem;
+  font-weight:700;
+}
+
+.team-specialty{
+  color:var(--color-primary);
+  font-size:.9rem;
+  font-weight:700;
+  margin:.45rem 0 .75rem;
+}
+
+.team-description{
+  color:var(--color-text-muted);
+  font-size:.88rem;
+  line-height:1.65;
+}
+
+
+/* Bottom Team Note */
+.team-bottom{
+  max-width:800px;
+  margin:2rem auto 0;
+  padding:1.1rem 1.3rem;
+  display:flex;
+  align-items:flex-start;
+  gap:.8rem;
+  background:var(--color-teal-light);
+  border-radius:var(--radius-md);
+  color:var(--color-text-muted);
+}
+
+.team-bottom .icon{
+  width:24px;
+  height:24px;
+  flex-shrink:0;
+  color:var(--color-teal);
+  margin-top:.1rem;
+}
+
+.team-bottom p{
+  font-size:.9rem;
+}
+
+
+/* Mobile */
+@media (max-width:600px){
+
+  .team-visual{
+    padding:1.8rem 1.2rem;
+  }
+
+  .team-main-icon{
+    width:70px;
+    height:70px;
+  }
+
+  .team-main-icon .icon{
+    width:35px;
+    height:35px;
+  }
+
+  .team-card{
+    padding:1.5rem 1.2rem;
+  }
+
+  .team-bottom{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+}
+
 <style>
 /* =========================================================
    PHYSIO SEBA — DESIGN TOKENS
