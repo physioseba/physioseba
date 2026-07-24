@@ -376,10 +376,21 @@ button{font-family:inherit; cursor:pointer;}
 }
 .brand{display:flex; align-items:center; gap:.6rem; font-family:var(--font-display); font-weight:700; font-size:1.3rem; color:var(--color-primary-dark);}
 .brand-mark{
-  width:42px; height:42px; border-radius:12px; background:linear-gradient(155deg,var(--color-primary),var(--color-teal));
-  display:flex; align-items:center; justify-content:center; color:#fff; flex-shrink:0;
+  width:42px;
+  height:42px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  background:transparent;
 }
-.brand-mark .icon{width:24px; height:24px;}
+
+.brand-mark img{
+  width:42px;
+  height:42px;
+  object-fit:contain;
+  display:block;
+}
 .brand small{display:block; font-family:var(--font-body); font-weight:500; font-size:.65rem; letter-spacing:.06em; color:var(--color-text-muted); text-transform:uppercase;}
 
 .main-nav{display:none;}
@@ -930,7 +941,9 @@ button{font-family:inherit; cursor:pointer;}
 <header class="site-header" id="site-header">
   <div class="container header-inner">
     <a href="#top" class="brand" aria-label="Physio Seba home">
-      <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#ic-activity"/></svg></span>
+<span class="brand-mark">
+  <img src="assets/physio-seba-icon.png" alt="Physio Seba">
+</span>     
       <span>Physio Seba<small>Home Physiotherapy, Dhaka</small></span>
     </a>
     <nav class="main-nav" aria-label="Primary">
@@ -1801,7 +1814,9 @@ button{font-family:inherit; cursor:pointer;}
   <div class="container footer-grid">
     <div class="footer-brand">
       <div class="brand">
-        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#ic-activity"/></svg></span>
+<span class="brand-mark">
+  <img src="assets/physio-seba-icon.png" alt="Physio Seba">
+</span>     
         <span>Physio Seba</span>
       </div>
       <p>Home physiotherapy service provider in Dhaka, Bangladesh — stroke rehabilitation, sports injury, post-surgery recovery, pain management and elderly care, delivered at your doorstep.</p>
