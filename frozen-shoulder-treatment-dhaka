@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Frozen Shoulder Physiotherapy in Dhaka | Home Visit Treatment – Physio Seba</title>
+<meta name="description" content="Struggling with frozen shoulder pain and stiffness? Get expert physiotherapy at your home in Dhaka. Qualified therapists, personalized plans. Call now.">
+<link rel="canonical" href="https://physioseba.com/frozen-shoulder-treatment-dhaka/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0D4F6C">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Physio Seba">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Frozen Shoulder Physiotherapy in Dhaka | Home Visit Treatment – Physio Seba">
+<meta property="og:description" content="Struggling with frozen shoulder pain and stiffness? Get expert physiotherapy at your home in Dhaka. Qualified therapists, personalized plans.">
+<meta property="og:url" content="https://physioseba.com/frozen-shoulder-treatment-dhaka/">
+<!-- EDITOR: create/upload a dedicated OG image for this page (1200x630) and update the path below -->
+<meta property="og:image" content="https://physioseba.com/assets/og-frozen-shoulder-dhaka.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/assets/physio-seba-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#FAF6EF;
+    --bg-alt:#F1E9DB;
+    --ink:#142A33;
+    --ink-soft:#4B5E66;
+    --primary:#0D4F6C;
+    --primary-dark:#082F40;
+    --accent:#C1792E;
+    --accent-soft:#F0DEC4;
+    --line:#DCD0BC;
+    --white:#FFFFFF;
+    --radius:14px;
+    --max:1180px;
+    --shadow:0 12px 30px -14px rgba(13,79,108,0.25);
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    line-height:1.65;
+    font-size:17px;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3{
+    font-family:'Fraunces',Georgia,serif;
+    color:var(--primary-dark);
+    line-height:1.15;
+    margin:0 0 0.5em;
+    font-weight:600;
+  }
+  h1{font-size:clamp(2rem,4.5vw,3rem);}
+  h2{font-size:clamp(1.5rem,3vw,2.1rem); margin-top:0;}
+  h3{font-size:1.25rem; color:var(--primary);}
+
+  p{margin:0 0 1.1em;}
+  a{color:var(--primary);}
+  a:focus-visible, button:focus-visible, summary:focus-visible{
+    outline:3px solid var(--accent);
+    outline-offset:2px;
+  }
+
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+    display:inline-block;
+    margin-bottom:0.6em;
+  }
+
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 24px;}
+
+  /* ---------- Top utility bar ---------- */
+  .topbar{
+    background:var(--primary-dark);
+    color:#EFE7D8;
+    font-size:0.85rem;
+  }
+  .topbar .wrap{
+    display:flex; justify-content:space-between; align-items:center;
+    padding-top:8px; padding-bottom:8px; gap:12px; flex-wrap:wrap;
+  }
+  .topbar a{color:#EFE7D8; text-decoration:none;}
+  .topbar a:hover{text-decoration:underline;}
+
+  /* ---------- Header / nav ---------- */
+  header.site{
+    position:sticky; top:0; z-index:50;
+    background:rgba(250,246,239,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:14px 0;
+  }
+  .brand{
+    display:flex; align-items:center; gap:10px;
+    font-family:'Fraunces',serif; font-weight:600; font-size:1.15rem;
+    color:var(--primary-dark); text-decoration:none;
+  }
+  .brand img{width:34px; height:34px; border-radius:8px;}
+  .cta-group{display:flex; gap:10px; align-items:center;}
+
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:11px 20px;
+    border-radius:999px;
+    font-weight:600;
+    font-size:0.95rem;
+    text-decoration:none;
+    border:1px solid transparent;
+    cursor:pointer;
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover{transform:translateY(-1px);}
+  .btn-primary{background:var(--accent); color:var(--white); box-shadow:var(--shadow);}
+  .btn-primary:hover{background:#AD6A26;}
+  .btn-ghost{background:transparent; color:var(--primary-dark); border-color:var(--primary-dark);}
+  .btn-ghost:hover{background:var(--primary-dark); color:var(--white);}
+  .btn-sm{padding:8px 14px; font-size:0.85rem;}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:64px 0 56px;
+    background:
+      radial-gradient(1100px 420px at 78% -10%, rgba(13,79,108,0.10), transparent 60%),
+      var(--bg);
+  }
+  .hero-grid{
+    display:grid; grid-template-columns:1.15fr 0.85fr; gap:48px; align-items:center;
+  }
+  .reviewed-by{
+    font-size:0.85rem; color:var(--ink-soft); margin-bottom:14px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .reviewed-by svg{flex:none;}
+  .hero p.lead{font-size:1.08rem; color:var(--ink-soft);}
+  .hero-actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:22px;}
+  .hero-stats{
+    display:flex; gap:26px; margin-top:28px; flex-wrap:wrap;
+  }
+  .hero-stats .stat{font-family:'IBM Plex Mono',monospace;}
+  .hero-stats .stat b{display:block; font-size:1.4rem; color:var(--primary-dark);}
+  .hero-stats .stat span{font-size:0.78rem; color:var(--ink-soft); letter-spacing:0.02em;}
+
+  /* Signature ROM gauge graphic */
+  .gauge-card{
+    background:var(--white); border:1px solid var(--line); border-radius:var(--radius);
+    padding:28px; box-shadow:var(--shadow); text-align:center;
+  }
+  .gauge-card .cap{font-family:'IBM Plex Mono',monospace; font-size:0.75rem; letter-spacing:0.08em; color:var(--ink-soft); text-transform:uppercase; margin-top:14px;}
+  .gauge-card svg{width:100%; height:auto; max-width:280px;}
+
+  /* ---------- Quick facts box ---------- */
+  .quickfacts{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-left:5px solid var(--accent);
+    border-radius:var(--radius);
+    padding:26px 28px;
+    margin:0 0 8px;
+    box-shadow:var(--shadow);
+  }
+  .quickfacts h2{font-size:1.05rem; font-family:'IBM Plex Mono',monospace; text-transform:uppercase; letter-spacing:0.06em; color:var(--primary-dark); margin-bottom:14px;}
+  .quickfacts dl{
+    display:grid; grid-template-columns:repeat(2,1fr); gap:14px 28px; margin:0;
+  }
+  .quickfacts dt{font-family:'IBM Plex Mono',monospace; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--accent); margin-bottom:3px;}
+  .quickfacts dd{margin:0; font-size:0.95rem;}
+
+  /* ---------- Layout: TOC + content ---------- */
+  main{background:var(--bg);}
+  .content-shell{
+    display:grid; grid-template-columns:220px minmax(0,1fr); gap:52px;
+    padding:56px 0 20px;
+    align-items:start;
+  }
+  nav.toc{
+    position:sticky; top:96px;
+    font-size:0.88rem;
+  }
+  nav.toc .eyebrow{margin-bottom:12px;}
+  nav.toc ol{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px;}
+  nav.toc a{
+    color:var(--ink-soft); text-decoration:none; display:block;
+    padding-left:12px; border-left:2px solid var(--line);
+  }
+  nav.toc a:hover, nav.toc a.active{
+    color:var(--primary-dark); border-left-color:var(--accent); font-weight:600;
+  }
+
+  article section{
+    padding:34px 0;
+    border-bottom:1px solid var(--line);
+    scroll-margin-top:96px;
+  }
+  article section:last-of-type{border-bottom:none;}
+
+  ul.check, ol.steps{padding-left:0; list-style:none; margin:0 0 1.1em;}
+  ul.check li{
+    position:relative; padding-left:30px; margin-bottom:10px;
+  }
+  ul.check li::before{
+    content:"";
+    position:absolute; left:0; top:0.35em;
+    width:16px; height:16px;
+    border-radius:50%;
+    background:var(--accent-soft);
+    border:1px solid var(--accent);
+  }
+  ul.check li::after{
+    content:"";
+    position:absolute; left:5px; top:0.55em;
+    width:6px; height:9px;
+    border-right:2px solid var(--accent);
+    border-bottom:2px solid var(--accent);
+    transform:rotate(45deg);
+  }
+
+  ol.steps{counter-reset:step;}
+  ol.steps li{
+    counter-increment:step;
+    position:relative; padding-left:46px; margin-bottom:18px;
+  }
+  ol.steps li::before{
+    content:counter(step);
+    position:absolute; left:0; top:-2px;
+    width:32px; height:32px;
+    background:var(--primary);
+    color:var(--white);
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:0.9rem;
+  }
+
+  /* Stage cards (real sequence -> numbering justified) */
+  .stages{display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:22px;}
+  .stage-card{
+    background:var(--white); border:1px solid var(--line); border-radius:var(--radius);
+    padding:22px; position:relative;
+  }
+  .stage-card .num{
+    font-family:'IBM Plex Mono',monospace; font-size:0.75rem; color:var(--accent);
+    letter-spacing:0.08em; text-transform:uppercase; display:block; margin-bottom:8px;
+  }
+  .stage-card svg{margin-bottom:10px;}
+  .stage-card h3{margin-bottom:6px; font-size:1.1rem;}
+  .stage-card p{font-size:0.93rem; color:var(--ink-soft); margin-bottom:0;}
+
+  table{width:100%; border-collapse:collapse; margin:0 0 1.2em; font-size:0.94rem;}
+  caption{text-align:left; font-family:'IBM Plex Mono',monospace; font-size:0.75rem; color:var(--ink-soft); margin-bottom:8px; text-transform:uppercase; letter-spacing:0.05em;}
+  th,td{text-align:left; padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top;}
+  thead th{
+    background:var(--primary-dark); color:var(--white);
+    font-family:'IBM Plex Mono',monospace; font-size:0.75rem; text-transform:uppercase; letter-spacing:0.04em; font-weight:600;
+  }
+  tbody tr:nth-child(even){background:var(--bg-alt);}
+
+  .callout{
+    background:var(--bg-alt); border-radius:var(--radius); padding:20px 22px; margin:18px 0;
+    border:1px dashed var(--line);
+    font-size:0.95rem;
+  }
+  .callout strong{color:var(--primary-dark);}
+
+  .two-col{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+  .decision-card{
+    background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:22px;
+  }
+  .decision-card h4{margin:0 0 10px; font-family:'Fraunces',serif; font-size:1.05rem; color:var(--primary-dark);}
+  .decision-card.warn{border-left:4px solid var(--accent);}
+  .decision-card.ok{border-left:4px solid var(--primary);}
+
+  /* Why choose grid */
+  .why-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:18px;}
+  .why-item{
+    background:var(--white); border:1px solid var(--line); border-radius:12px; padding:16px 18px;
+    font-size:0.94rem; display:flex; gap:10px; align-items:flex-start;
+  }
+  .why-item svg{flex:none; margin-top:2px;}
+
+  /* Testimonial */
+  .testimonial{
+    background:var(--primary-dark); color:#EFE7D8; border-radius:var(--radius);
+    padding:30px 32px; margin-top:10px;
+  }
+  .testimonial p.quote{font-family:'Fraunces',serif; font-size:1.15rem; font-style:italic; line-height:1.5;}
+  .testimonial cite{display:block; margin-top:14px; font-style:normal; font-size:0.85rem; color:#C8CFD3;}
+  .testimonial .disclaimer{font-size:0.78rem; color:#9FB2BB; margin-top:10px;}
+
+  /* FAQ accordion */
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-item summary{
+    cursor:pointer; list-style:none; padding:18px 4px;
+    font-family:'Fraunces',serif; font-weight:600; color:var(--primary-dark);
+    display:flex; justify-content:space-between; align-items:center; gap:16px;
+    font-size:1.05rem;
+  }
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{
+    content:"+"; font-family:'IBM Plex Mono',monospace; font-size:1.4rem; color:var(--accent);
+    flex:none; transition:transform .2s ease;
+  }
+  .faq-item[open] summary::after{content:"–";}
+  .faq-item .a{padding:0 4px 18px; color:var(--ink-soft); font-size:0.96rem;}
+
+  /* Final CTA band */
+  .cta-band{
+    background:linear-gradient(135deg,var(--primary-dark),var(--primary));
+    color:#EFE7D8; padding:56px 0; margin-top:8px;
+  }
+  .cta-band h2{color:var(--white);}
+  .cta-band p{color:#CBD9DE; max-width:60ch;}
+  .cta-band .btn-primary{font-size:1.05rem; padding:14px 26px;}
+  .cta-band .areas{font-size:0.85rem; color:#9FB2BB; margin-top:22px;}
+
+  /* References */
+  .references{font-size:0.82rem; color:var(--ink-soft);}
+  .references ol{padding-left:20px;}
+  .references li{margin-bottom:6px;}
+
+  footer.site{
+    background:var(--primary-dark); color:#9FB2BB; padding:34px 0; font-size:0.85rem;
+  }
+  footer.site a{color:#D8E3E7;}
+  .disclaimer-box{
+    font-size:0.82rem; color:var(--ink-soft); background:var(--bg-alt);
+    border-radius:12px; padding:16px 18px; margin-top:24px;
+  }
+
+  /* Mobile sticky CTA bar */
+  .mobile-cta{
+    display:none;
+    position:fixed; bottom:0; left:0; right:0; z-index:60;
+    background:var(--white); border-top:1px solid var(--line);
+    padding:10px 16px; gap:10px;
+    box-shadow:0 -8px 20px -12px rgba(0,0,0,0.25);
+  }
+  .mobile-cta a{flex:1; justify-content:center; text-align:center;}
+
+  @media (max-width:920px){
+    .hero-grid{grid-template-columns:1fr;}
+    .content-shell{grid-template-columns:1fr;}
+    nav.toc{position:static; margin-bottom:12px;}
+    nav.toc ol{flex-direction:row; flex-wrap:wrap; gap:8px 16px;}
+    nav.toc a{border-left:none; border-bottom:2px solid var(--line); padding:0 0 4px;}
+    .stages{grid-template-columns:1fr;}
+    .quickfacts dl{grid-template-columns:1fr;}
+    .two-col{grid-template-columns:1fr;}
+    .why-grid{grid-template-columns:1fr;}
+    .mobile-cta{display:flex;}
+    body{padding-bottom:70px;}
+    .topbar{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ Structured Data ============ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://physioseba.com/#organization",
+      "name": "Physio Seba",
+      "url": "https://physioseba.com/",
+      "telephone": "+8801914958611",
+      "image": "https://physioseba.com/assets/og-physio-seba-dhaka.jpg",
+      "priceRange": "$$",
+      "medicalSpecialty": "Physiotherapy",
+      "areaServed": [
+        {"@type":"Place","name":"Dhanmondi, Dhaka"},
+        {"@type":"Place","name":"Mirpur, Dhaka"},
+        {"@type":"Place","name":"Uttara, Dhaka"},
+        {"@type":"Place","name":"Mohammadpur, Dhaka"},
+        {"@type":"Place","name":"Gulshan, Dhaka"},
+        {"@type":"Place","name":"Banani, Dhaka"},
+        {"@type":"Place","name":"Bashundhara, Dhaka"},
+        {"@type":"Place","name":"Badda, Dhaka"},
+        {"@type":"Place","name":"Motijheel, Dhaka"},
+        {"@type":"Place","name":"Farmgate, Dhaka"}
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dhaka",
+        "addressCountry": "BD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127"
+      },
+      "sameAs": [
+        "https://www.facebook.com/physiosebabd"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://physioseba.com/#nur-islam",
+      "name": "Nur Islam",
+      "jobTitle": "Physiotherapist — Musculoskeletal & Pain Rehabilitation",
+      "hasCredential": "MPT, BPT, DPT",
+      "worksFor": {"@id": "https://physioseba.com/#organization"}
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://physioseba.com/frozen-shoulder-treatment-dhaka/#webpage",
+      "url": "https://physioseba.com/frozen-shoulder-treatment-dhaka/",
+      "name": "Frozen Shoulder Physiotherapy in Dhaka | Home Visit Treatment",
+      "description": "Struggling with frozen shoulder pain and stiffness? Get expert physiotherapy at your home in Dhaka. Qualified therapists, personalized plans.",
+      "inLanguage": "en",
+      "lastReviewed": "2026-07-31",
+      "reviewedBy": {"@id": "https://physioseba.com/#nur-islam"},
+      "about": {"@id": "https://physioseba.com/frozen-shoulder-treatment-dhaka/#condition"},
+      "publisher": {"@id": "https://physioseba.com/#organization"},
+      "breadcrumb": {"@id": "https://physioseba.com/frozen-shoulder-treatment-dhaka/#breadcrumb"}
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://physioseba.com/frozen-shoulder-treatment-dhaka/#condition",
+      "name": "Frozen Shoulder",
+      "alternateName": "Adhesive Capsulitis",
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Glenohumeral joint (shoulder joint capsule)"
+      },
+      "signOrSymptom": [
+        {"@type":"MedicalSymptom","name":"Shoulder pain, worse at night"},
+        {"@type":"MedicalSymptom","name":"Progressive loss of shoulder range of motion"},
+        {"@type":"MedicalSymptom","name":"Difficulty lifting or rotating the arm"}
+      ],
+      "riskFactor": [
+        {"@type":"MedicalRiskFactor","name":"Diabetes"},
+        {"@type":"MedicalRiskFactor","name":"Thyroid disorders"},
+        {"@type":"MedicalRiskFactor","name":"Prior shoulder injury or surgery"},
+        {"@type":"MedicalRiskFactor","name":"Prolonged shoulder immobilization"},
+        {"@type":"MedicalRiskFactor","name":"Age 40–60"}
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiotherapy for Frozen Shoulder",
+        "medicineSystem": "https://schema.org/WesternConventional"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://physioseba.com/frozen-shoulder-treatment-dhaka/#breadcrumb",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://physioseba.com/"},
+        {"@type":"ListItem","position":2,"name":"Services","item":"https://physioseba.com/#services"},
+        {"@type":"ListItem","position":3,"name":"Frozen Shoulder Treatment","item":"https://physioseba.com/frozen-shoulder-treatment-dhaka/"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://physioseba.com/frozen-shoulder-treatment-dhaka/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the fastest way to cure frozen shoulder?",
+          "acceptedAnswer": {"@type":"Answer","text":"There's no true fast cure for frozen shoulder — it's a condition that resolves gradually even with treatment. Starting physiotherapy early, in the freezing stage, combined with consistent home exercises, gives you the best chance of a shorter, less disruptive recovery."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can physiotherapy fix a frozen shoulder without surgery?",
+          "acceptedAnswer": {"@type":"Answer","text":"Yes, physiotherapy is the most effective non-surgical treatment for frozen shoulder and resolves most cases without any need for surgery, especially when started early."}
+        },
+        {
+          "@type": "Question",
+          "name": "How many physiotherapy sessions are needed for frozen shoulder?",
+          "acceptedAnswer": {"@type":"Answer","text":"This depends on the stage and severity. Mild cases may need fewer sessions over 6–8 weeks, while more severe or long-standing cases can require sessions over several months. A physiotherapist gives a personalized estimate after the first assessment."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is walking good for frozen shoulder?",
+          "acceptedAnswer": {"@type":"Answer","text":"Walking doesn't directly treat frozen shoulder since it doesn't move the shoulder joint, but staying generally active supports overall recovery. It's not a substitute for shoulder-specific physiotherapy exercises."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does frozen shoulder come back after treatment?",
+          "acceptedAnswer": {"@type":"Answer","text":"Recurrence in the same shoulder is rare once it has fully resolved. It can occasionally develop in the other shoulder later, particularly in people with diabetes."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide home visit physiotherapy for frozen shoulder in my area of Dhaka?",
+          "acceptedAnswer": {"@type":"Answer","text":"Physio Seba currently serves Dhanmondi, Mirpur, Uttara, Mohammadpur, Gulshan, Banani, Bashundhara, Badda, Motijheel, Farmgate, and nearby areas across Dhaka, with coverage expanding regularly."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- ============ Top utility bar ============ -->
+<div class="topbar">
+  <div class="wrap">
+    <span>Home visit physiotherapy across Dhaka · 7 days a week</span>
+    <a href="tel:+8801914958611">+8801914958611</a>
+  </div>
+</div>
+
+<!-- ============ Header ============ -->
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="https://physioseba.com/">
+      <img src="/assets/physio-seba-icon.png" alt="" width="34" height="34">
+      Physio Seba
+    </a>
+    <div class="cta-group">
+      <a class="btn btn-ghost btn-sm" href="https://wa.me/8801914958611">WhatsApp</a>
+      <a class="btn btn-primary btn-sm" href="tel:+8801914958611">Call Now</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ Hero ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Frozen Shoulder · Home Visit Physiotherapy</span>
+        <h1>Frozen Shoulder Physiotherapy in Dhaka — At Your Doorstep</h1>
+        <p class="reviewed-by">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 12l2 2 4-4M12 21c-4-2-7-5.5-7-10V6l7-3 7 3v5c0 4.5-3 8-7 10z" stroke="#0D4F6C" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Reviewed by <strong>Nur Islam, MPT, BPT, DPT</strong> — Musculoskeletal &amp; Pain Rehabilitation
+        </p>
+        <p class="lead">If lifting your arm, dressing, or sleeping on your side has become painful, you may be dealing with frozen shoulder. Left untreated it can take one to three years to resolve. Physio Seba brings structured, hands-on physiotherapy directly to your home, anywhere in Dhaka.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:+8801914958611">Call +8801914958611</a>
+          <a class="btn btn-ghost" href="https://wa.me/8801914958611">Chat on WhatsApp</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b>4.9★</b><span>127+ patient reviews</span></div>
+          <div class="stat"><b>10+</b><span>areas covered in Dhaka</span></div>
+          <div class="stat"><b>1,000+</b><span>patients served</span></div>
+        </div>
+      </div>
+
+      <div class="gauge-card">
+        <!-- Signature element: range-of-motion gauge illustrating shoulder stiffness -->
+        <svg viewBox="0 0 240 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a shoulder range-of-motion gauge, showing restricted arm elevation typical of frozen shoulder">
+          <path d="M20 150 A100 100 0 0 1 220 150" fill="none" stroke="#DCD0BC" stroke-width="14" stroke-linecap="round"/>
+          <path d="M20 150 A100 100 0 0 1 90 55" fill="none" stroke="#C1792E" stroke-width="14" stroke-linecap="round"/>
+          <circle cx="120" cy="150" r="6" fill="#0D4F6C"/>
+          <line x1="120" y1="150" x2="82" y2="62" stroke="#0D4F6C" stroke-width="4" stroke-linecap="round"/>
+          <text x="120" y="140" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#4B5E66">restricted ROM</text>
+        </svg>
+        <div class="cap">Typical shoulder elevation limit — freezing stage</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="quickfacts">
+      <h2>Quick Facts — Frozen Shoulder</h2>
+      <dl>
+        <div><dt>What it is</dt><dd>Stiffening and inflammation of the shoulder joint capsule (adhesive capsulitis)</dd></div>
+        <div><dt>Who it affects most</dt><dd>Adults aged 40–60, more common in women, and in people with diabetes or thyroid disorders</dd></div>
+        <div><dt>How common</dt><dd>Affects roughly 2–5% of adults at some point in their lives</dd></div>
+        <div><dt>Natural course</dt><dd>Often resolves on its own, but can take 1–3 years without treatment</dd></div>
+        <div><dt>Best non-surgical treatment</dt><dd>Physiotherapy — mobilization, stretching, and graded exercise</dd></div>
+        <div><dt>Recurrence</dt><dd>Rare in the same shoulder once fully resolved</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <!-- ============ Content shell: TOC + Article ============ -->
+  <div class="wrap content-shell">
+    <nav class="toc" aria-label="On this page">
+      <span class="eyebrow">On this page</span>
+      <ol>
+        <li><a href="#what-is-it">What is it?</a></li>
+        <li><a href="#symptoms">Symptoms</a></li>
+        <li><a href="#stages">3 Stages</a></li>
+        <li><a href="#causes">Causes &amp; Risks</a></li>
+        <li><a href="#treatment">How Physio Helps</a></li>
+        <li><a href="#first-visit">First Visit</a></li>
+        <li><a href="#exercises">Home Exercises</a></li>
+        <li><a href="#surgery">Physio vs Surgery</a></li>
+        <li><a href="#duration">Recovery Time</a></li>
+        <li><a href="#cost">Cost</a></li>
+        <li><a href="#why-us">Why Physio Seba</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </nav>
+
+    <article>
+
+      <section id="what-is-it">
+        <h2>What Is Frozen Shoulder? (Adhesive Capsulitis)</h2>
+        <p>Frozen shoulder, medically called adhesive capsulitis, happens when the capsule of tissue surrounding your shoulder joint becomes inflamed, thickens, and tightens. This capsule normally allows your shoulder to move freely in almost every direction. When it stiffens, movement becomes painful and progressively more restricted, regardless of how strong your shoulder muscles are.</p>
+        <p>According to UK NHS musculoskeletal services, frozen shoulder develops gradually and, left untreated, can take one to three years to fully resolve on its own.<sup><a href="#ref-1">[1]</a></sup> This is exactly why early physiotherapy matters — the sooner treatment begins, the shorter and less disruptive the recovery tends to be.</p>
+        <p>Frozen shoulder is different from a rotator cuff injury or shoulder impingement, both of which usually involve pain during specific movements rather than a broad, all-direction stiffness. A proper physiotherapy assessment helps confirm which condition you're actually dealing with before treatment begins.</p>
+      </section>
+
+      <section id="symptoms">
+        <h2>Signs &amp; Symptoms You Shouldn't Ignore</h2>
+        <p>Frozen shoulder often starts quietly before it becomes hard to ignore. Common symptoms include:</p>
+        <ul class="check">
+          <li>Shoulder pain that gets worse at night and disrupts sleep</li>
+          <li>Gradually reducing range of motion, even without a clear injury</li>
+          <li>Difficulty lifting your arm overhead or rotating it outward</li>
+          <li>Struggling with everyday tasks like dressing, combing hair, or reaching behind your back</li>
+          <li>A feeling that the shoulder is "locked" or "stuck"</li>
+        </ul>
+        <p>If these symptoms have lasted more than two to three weeks, or if night pain is affecting your sleep, it's worth having a physiotherapist assess your shoulder. Waiting it out rarely makes the condition resolve faster — prolonged immobility tends to make the capsule tighter.</p>
+      </section>
+
+      <section id="stages">
+        <h2>The 3 Stages of Frozen Shoulder</h2>
+        <p>Frozen shoulder typically progresses through three distinct stages, and the right physiotherapy approach changes at each one. Treating a "frozen" stage shoulder the same way you'd treat a "freezing" stage shoulder can slow recovery or increase pain — which is why a proper assessment matters before any treatment plan begins.</p>
+
+        <div class="stages">
+          <div class="stage-card">
+            <span class="num">Stage 1 of 3</span>
+            <svg width="56" height="40" viewBox="0 0 56 40" aria-hidden="true"><path d="M4 36 A24 24 0 0 1 40 14" fill="none" stroke="#C1792E" stroke-width="6" stroke-linecap="round"/><path d="M40 14 A24 24 0 0 1 52 36" fill="none" stroke="#DCD0BC" stroke-width="6" stroke-linecap="round"/></svg>
+            <h3>Freezing Stage</h3>
+            <p>The most painful phase. Pain increases gradually and movement starts becoming limited. Focus: gentle pain relief, protecting the joint, and light pain-free movement. Aggressive stretching here usually backfires.</p>
+          </div>
+          <div class="stage-card">
+            <span class="num">Stage 2 of 3</span>
+            <svg width="56" height="40" viewBox="0 0 56 40" aria-hidden="true"><path d="M4 36 A24 24 0 0 1 24 12" fill="none" stroke="#C1792E" stroke-width="6" stroke-linecap="round"/><path d="M24 12 A24 24 0 0 1 52 36" fill="none" stroke="#DCD0BC" stroke-width="6" stroke-linecap="round"/></svg>
+            <h3>Frozen Stage</h3>
+            <p>Pain may ease, but stiffness becomes severe. Structured manual therapy and graded joint mobilization matter most here — regaining motion gradually without provoking a flare-up.</p>
+          </div>
+          <div class="stage-card">
+            <span class="num">Stage 3 of 3</span>
+            <svg width="56" height="40" viewBox="0 0 56 40" aria-hidden="true"><path d="M4 36 A24 24 0 0 1 48 20" fill="none" stroke="#C1792E" stroke-width="6" stroke-linecap="round"/><path d="M48 20 A24 24 0 0 1 52 36" fill="none" stroke="#DCD0BC" stroke-width="6" stroke-linecap="round"/></svg>
+            <h3>Thawing Stage</h3>
+            <p>Movement slowly returns. Physiotherapy shifts to progressive range-of-motion exercises and strengthening the shoulder and scapular muscles to rebuild normal function.</p>
+          </div>
+        </div>
+        <p style="margin-top:18px;">Understanding which stage you're in is the first thing our physiotherapist assesses during your home visit — it shapes every decision in your treatment plan.</p>
+      </section>
+
+      <section id="causes">
+        <h2>Causes &amp; Risk Factors</h2>
+        <p>In many cases, frozen shoulder develops without an obvious triggering injury — it's often described as idiopathic. That said, several factors are known to increase risk:</p>
+        <ul class="check">
+          <li>Diabetes and thyroid disorders</li>
+          <li>A previous shoulder injury or surgery</li>
+          <li>Prolonged immobility, such as after a fracture or arm sling use</li>
+          <li>Age, most commonly between 40 and 60 years</li>
+          <li>Being female — frozen shoulder is diagnosed more often in women than men</li>
+          <li>A sedentary lifestyle or long periods of poor posture</li>
+        </ul>
+
+        <h3>Frozen Shoulder and Diabetes</h3>
+        <p>Diabetes is one of the best-documented risk factors for frozen shoulder, and diabetes is extremely common across Bangladesh.<sup><a href="#ref-2">[2]</a></sup> In people with diabetes, frozen shoulder tends to develop more often, can take longer to resolve, and more frequently affects both shoulders over time. If you have diabetes and you're noticing shoulder stiffness, it's worth getting it assessed early — early physiotherapy tends to make a meaningful difference in this group.</p>
+      </section>
+
+      <section id="treatment">
+        <h2>How Physiotherapy Helps — Our Home-Visit Treatment Approach</h2>
+        <p>Physiotherapy is widely recognized as the most effective non-surgical way to manage frozen shoulder. Rather than forcing painful movement, our approach focuses on restoring motion gradually and safely, matched to whichever stage you're in.</p>
+        <p>A typical home-visit treatment plan includes:</p>
+        <ul class="check">
+          <li><strong>Manual therapy and capsular stretching</strong> — hands-on techniques to gently mobilize the joint and loosen tight tissue</li>
+          <li><strong>Progressive range-of-motion exercises</strong> — starting passive, therapist-assisted, building toward active, independent movement</li>
+          <li><strong>Pain modulation techniques</strong> — home-adaptable methods to reduce pain and allow more comfortable movement</li>
+          <li><strong>A personalized home exercise program</strong> — specific stretches you continue between visits, adjusted as you progress</li>
+          <li><strong>Family and caregiver guidance</strong> — practical advice for household members supporting recovery, especially for elderly patients</li>
+        </ul>
+
+        <h3>Why This Works Better at Home</h3>
+        <p>Practicing shoulder movements in the environment where you actually live — your bedroom, your kitchen, your routine — tends to translate into better real-world recovery than a generic clinic setting. There's also no added stress from traveling through Dhaka traffic before a session, which matters more than people expect when a joint is already inflamed. And because your physiotherapist sees your actual home setup, ergonomic advice can be tailored precisely to your space.</p>
+      </section>
+
+      <section id="first-visit">
+        <h2>What to Expect From Your First Home Visit</h2>
+        <ol class="steps">
+          <li><strong>Call or message us</strong> — Reach out by phone or WhatsApp and briefly describe your symptoms and preferred time.</li>
+          <li><strong>We confirm your appointment</strong> — Typically within minutes, often offering same-day visits subject to availability.</li>
+          <li><strong>Your physiotherapist arrives at your home</strong> — Fully equipped, they carry out a thorough physical assessment: range of motion, pain pattern, and stage of frozen shoulder.</li>
+          <li><strong>You receive a personalized treatment plan</strong> — Including expected session frequency, home exercises, and realistic recovery expectations.</li>
+          <li><strong>Ongoing sessions with progress tracking</strong> — Your plan is adjusted as your shoulder responds, moving through freezing, frozen, and thawing stage protocols as appropriate.</li>
+        </ol>
+      </section>
+
+      <section id="exercises">
+        <h2>Frozen Shoulder Exercises You Can Do at Home</h2>
+        <p>These gentle exercises are commonly recommended for frozen shoulder, but should be introduced gradually and ideally under a physiotherapist's guidance, especially during the painful freezing stage.</p>
+        <table>
+          <caption>Home exercise guide</caption>
+          <thead>
+            <tr><th scope="col">Exercise</th><th scope="col">How to Do It</th><th scope="col">Benefit</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Pendulum Swings</td><td>Lean forward slightly, let your affected arm hang, and gently swing it in small circles</td><td>Relaxes the joint, reduces stiffness without forcing movement</td></tr>
+            <tr><td>Towel Stretch</td><td>Hold a towel behind your back with both hands, gently pull upward with the unaffected arm</td><td>Improves internal rotation and flexibility</td></tr>
+            <tr><td>Cross-Body Stretch</td><td>Use your other arm to gently pull the affected arm across your chest</td><td>Stretches the back of the shoulder capsule</td></tr>
+            <tr><td>Finger Walk</td><td>Face a wall, "walk" your fingers up it as high as comfortable, then slowly lower</td><td>Gradually increases overhead range of motion</td></tr>
+          </tbody>
+        </table>
+        <div class="callout"><strong>General guide:</strong> 10–15 repetitions, twice a day, always after a light warm-up. Doing these incorrectly — or too aggressively in the wrong stage — can increase pain and slow recovery, which is why professional guidance matters more with frozen shoulder than with most other shoulder problems.</div>
+      </section>
+
+      <section id="surgery">
+        <h2>Physiotherapy vs. Surgery — Do You Need More Than Physiotherapy?</h2>
+        <p>Most frozen shoulder cases respond well to consistent physiotherapy alone, especially when treatment starts early. But physiotherapy isn't always the complete answer for every patient — and it's worth being upfront about that.</p>
+        <div class="two-col">
+          <div class="decision-card ok">
+            <h4>Physiotherapy alone is usually enough when:</h4>
+            <ul class="check">
+              <li>Treatment starts in the freezing or early frozen stage</li>
+              <li>You're consistent with home exercises between sessions</li>
+              <li>There's steady, measurable improvement in range of motion over several weeks</li>
+            </ul>
+          </div>
+          <div class="decision-card warn">
+            <h4>A doctor referral may be worth discussing when:</h4>
+            <ul class="check">
+              <li>Stiffness remains severe with minimal improvement after a reasonable course of physiotherapy</li>
+              <li>Pain is preventing meaningful participation in therapy</li>
+              <li>Your physiotherapist identifies signs that warrant orthopedic evaluation (e.g. manipulation under anaesthesia or hydrodilatation)</li>
+            </ul>
+          </div>
+        </div>
+        <p>Part of our job as physiotherapists is being upfront with you about your progress. If physiotherapy isn't producing expected improvement within a reasonable timeframe, we'll tell you — and help you understand what a next step with a doctor might look like.</p>
+      </section>
+
+      <section id="duration">
+        <h2>How Long Does Frozen Shoulder Physiotherapy Take?</h2>
+        <p>Left completely untreated, frozen shoulder often resolves on its own — but this natural course commonly takes one to three years.<sup><a href="#ref-1">[1]</a></sup> Physiotherapy doesn't necessarily shorten the total biological timeline, but it meaningfully reduces pain and disability along the way, and helps you regain functional movement faster than waiting it out.</p>
+        <p>The table below reflects typical timeframes for noticeable improvement with active physiotherapy — not full biological resolution of the underlying capsule changes:</p>
+        <table>
+          <caption>Typical time to noticeable improvement with physiotherapy</caption>
+          <thead><tr><th scope="col">Severity</th><th scope="col">Typical Timeframe</th></tr></thead>
+          <tbody>
+            <tr><td>Mild (early freezing stage)</td><td>Around 6–8 weeks</td></tr>
+            <tr><td>Moderate (established frozen stage)</td><td>Roughly 3–6 months</td></tr>
+            <tr><td>Severe (long-standing stiffness)</td><td>May require longer, structured treatment over several months</td></tr>
+          </tbody>
+        </table>
+        <p>These are general guides, not guarantees — recovery speed varies a lot from person to person. Your physiotherapist gives a realistic, personalized estimate after your first home assessment.</p>
+      </section>
+
+      <section id="cost">
+        <h2>Frozen Shoulder Physiotherapy Cost in Dhaka</h2>
+        <p>Cost depends on a few factors:</p>
+        <ul class="check">
+          <li><strong>Severity and stage</strong> of your frozen shoulder, which affects session frequency and total treatment length</li>
+          <li><strong>Number of sessions</strong> required based on your response to treatment</li>
+          <li><strong>Location within Dhaka</strong>, since we travel to you for every visit</li>
+        </ul>
+        <p>We keep pricing transparent and fair, designed to make consistent physiotherapy realistic for families. Because every case is different, we don't publish a fixed price — but we're happy to give a clear, honest quote over a quick call or WhatsApp message before you commit to anything.</p>
+        <a class="btn btn-primary" href="https://wa.me/8801914958611">Get a Quote on WhatsApp</a>
+      </section>
+
+      <section id="why-us">
+        <h2>Why Choose Physio Seba for Frozen Shoulder Treatment</h2>
+        <div class="why-grid">
+          <div class="why-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12s3-7 8-7 8 7 8 7-3 7-8 7-8-7-8-7z" stroke="#0D4F6C" stroke-width="1.6"/><circle cx="12" cy="12" r="2.5" stroke="#0D4F6C" stroke-width="1.6"/></svg><span>Home visits across Dhanmondi, Mirpur, Uttara, Mohammadpur, Gulshan, Banani, Bashundhara, Badda, Motijheel, Farmgate &amp; nearby areas</span></div>
+          <div class="why-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z" stroke="#0D4F6C" stroke-width="1.6"/></svg><span>Treatment led by <strong>Nur Islam, MPT, BPT, DPT</strong> — musculoskeletal &amp; pain rehabilitation specialist</span></div>
+          <div class="why-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 17.3l-5.6 3 1.1-6.2L3 9.7l6.3-.9L12 3l2.7 5.8 6.3.9-4.5 4.4 1.1 6.2z" stroke="#0D4F6C" stroke-width="1.6" stroke-linejoin="round"/></svg><span><strong>4.9★ average rating</strong> from 127+ patients and families across Dhaka</span></div>
+          <div class="why-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 12c2.5 0 4.5-2 4.5-4.5S14.5 3 12 3 7.5 5 7.5 7.5 9.5 12 12 12zM4 21c0-4 3.5-7 8-7s8 3 8 7" stroke="#0D4F6C" stroke-width="1.6"/></svg><span>Personalized treatment plans built around your stage of frozen shoulder — not a generic checklist</span></div>
+          <div class="why-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="#0D4F6C" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="#0D4F6C" stroke-width="1.6" stroke-linecap="round"/></svg><span>Female physiotherapists available on request, for comfort</span></div>
+          <div class="why-item"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4h16v12H8l-4 4V4z" stroke="#0D4F6C" stroke-width="1.6" stroke-linejoin="round"/></svg><span>Transparent communication on your progress, timeline, and pricing at every step</span></div>
+        </div>
+        <p style="margin-top:20px;">We started Physio Seba because too many patients in Dhaka were skipping physiotherapy they genuinely needed — simply because of traffic, mobility limitations, or no nearby clinic. Frozen shoulder, which already makes daily movement difficult, is exactly the kind of condition where that barrier shouldn't stand between you and recovery.</p>
+
+        <!-- EDITOR: replace the placeholder testimonial below with a real, permissioned patient/family quote before publishing. A fabricated testimonial presented as genuine is a trust and policy risk, not a style choice. -->
+        <div class="testimonial">
+          <p class="quote">"My mother had frozen shoulder for months and couldn't even change her clothes without help. We booked a home visit with Physio Seba out of frustration more than hope, honestly. The physiotherapist was patient with her, explained what stage she was in, and gave us a realistic plan. A few months in, she's dressing herself again and sleeping through the night without shoulder pain waking her up."</p>
+          <cite>— Patient family, Mirpur · Frozen Shoulder Treatment</cite>
+          <p class="disclaimer">Patient experiences and treatment outcomes may vary from person to person.</p>
+        </div>
+      </section>
+
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <details class="faq-item" open>
+          <summary>What is the fastest way to cure frozen shoulder?</summary>
+          <div class="a">There's no true "fast cure" for frozen shoulder — it's a condition that resolves gradually even with treatment. Starting physiotherapy early, in the freezing stage, combined with consistent home exercises, gives you the best chance of a shorter, less disruptive recovery.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Can physiotherapy fix a frozen shoulder without surgery?</summary>
+          <div class="a">Yes, physiotherapy is the most effective non-surgical treatment for frozen shoulder and resolves most cases without any need for surgery, especially when started early.</div>
+        </details>
+        <details class="faq-item">
+          <summary>How many physiotherapy sessions are needed?</summary>
+          <div class="a">This depends on the stage and severity of your frozen shoulder. Mild cases may need fewer sessions over 6–8 weeks, while more severe or long-standing cases can require sessions over several months. Your physiotherapist gives a personalized estimate after your first assessment.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Is walking good for frozen shoulder?</summary>
+          <div class="a">Walking doesn't directly treat frozen shoulder since it doesn't move the shoulder joint, but staying generally active supports overall recovery and circulation. It's not a substitute for shoulder-specific physiotherapy exercises.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Does frozen shoulder come back after treatment?</summary>
+          <div class="a">Recurrence in the same shoulder is rare once it has fully resolved. It can occasionally develop in the other shoulder later, particularly in people with diabetes. Completing your full treatment plan and home exercise program reduces the risk of lingering stiffness.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Do you provide home visit physiotherapy for frozen shoulder in my area?</summary>
+          <div class="a">We currently serve Dhanmondi, Mirpur, Uttara, Mohammadpur, Gulshan, Banani, Bashundhara, Badda, Motijheel, Farmgate, and nearby areas across Dhaka. If you're not sure whether we cover your neighborhood, just call us — we're expanding every month.</div>
+        </details>
+      </section>
+
+      <section class="references" id="references">
+        <h2 style="font-size:1.1rem;">References</h2>
+        <ol>
+          <li id="ref-1">NHS Lanarkshire — <a href="https://www.nhslanarkshire.scot.nhs.uk/services/physiotherapy-msk/frozen-shoulder/" target="_blank" rel="noopener noreferrer">Frozen Shoulder</a></li>
+          <li id="ref-2">Wikipedia — <a href="https://en.wikipedia.org/wiki/Adhesive_capsulitis_of_the_shoulder" target="_blank" rel="noopener noreferrer">Adhesive Capsulitis of the Shoulder</a></li>
+        </ol>
+        <div class="disclaimer-box">Content on this page is for general informational purposes and does not replace professional medical advice, diagnosis, or treatment. Always consult a qualified physician for serious or emergency medical conditions.</div>
+      </section>
+
+    </article>
+  </div>
+
+  <!-- ============ Final CTA band ============ -->
+  <section class="cta-band">
+    <div class="wrap">
+      <span class="eyebrow" style="color:#E9C08A;">Book a Home Visit</span>
+      <h2>Book Your Frozen Shoulder Home Visit Today</h2>
+      <p>You don't need to live with shoulder pain and stiffness, and you don't need to navigate Dhaka traffic to get proper treatment for it. Physio Seba brings qualified, experienced physiotherapy care directly to your home.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="tel:+8801914958611">Call +8801914958611</a>
+        <a class="btn btn-ghost" style="border-color:#EFE7D8;color:#EFE7D8;" href="https://wa.me/8801914958611">Chat on WhatsApp</a>
+      </div>
+      <p class="areas">Serving Dhanmondi, Mirpur, Uttara, Mohammadpur, Gulshan, Banani, Bashundhara, Badda, Motijheel, Farmgate &amp; nearby areas of Dhaka.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>© Physio Seba. All rights reserved. · physioseba.com, Dhaka, Bangladesh</p>
+    <p><a href="https://physioseba.com/">Home</a> · <a href="https://physioseba.com/privacy-policy/">Privacy Policy</a> · <a href="tel:+8801914958611">+8801914958611</a></p>
+  </div>
+</footer>
+
+<!-- Mobile sticky CTA -->
+<div class="mobile-cta">
+  <a class="btn btn-ghost btn-sm" href="https://wa.me/8801914958611">WhatsApp</a>
+  <a class="btn btn-primary btn-sm" href="tel:+8801914958611">Call Now</a>
+</div>
+
+<script>
+  // Scroll-spy for table of contents
+  (function(){
+    var sections = document.querySelectorAll('article section[id]');
+    var links = document.querySelectorAll('nav.toc a');
+    if(!sections.length || !links.length || !('IntersectionObserver' in window)) return;
+    var map = {};
+    links.forEach(function(l){ map[l.getAttribute('href').slice(1)] = l; });
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        var link = map[entry.target.id];
+        if(!link) return;
+        if(entry.isIntersecting){
+          links.forEach(function(l){ l.classList.remove('active'); });
+          link.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-30% 0px -60% 0px', threshold: 0 });
+    sections.forEach(function(s){ obs.observe(s); });
+  })();
+</script>
+
+</body>
+</html>
